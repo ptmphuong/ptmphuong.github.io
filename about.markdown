@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Về Tui
+title: về-tui
 permalink: /about/
 ---
 
