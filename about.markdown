@@ -3,8 +3,8 @@ layout: page
 title: về-tui
 permalink: /about/
 ---
-
-<center><img src="{{ site.url }}/assets/about/tuihoccode.jpg"></center>
+<!-- <center><img src="{{ site.url }}/assets/about/tuihoccode.jpg"></center> -->
+<p><img src="{{ site.url }}/assets/about/tuihoccode.jpg" style="float: left; max-width: 50%;margin: 1em 2em 0 0"></p>
 
 <br>Chào mọi người, tui là Minh Phượng (MP), hiện đang theo học MSCS Computer Science tại Seattle, nước Mỹ.
 
