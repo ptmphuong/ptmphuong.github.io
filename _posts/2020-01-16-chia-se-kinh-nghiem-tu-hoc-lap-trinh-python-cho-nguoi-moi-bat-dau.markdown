@@ -40,7 +40,7 @@ Thời gian đầu rất dễ nản nhưng may mắn tui cũng kịp thời tìm
 
 <!-- ![chia-se-kinh-nghiem-tu-hoc-lap-trinh]({{ site.url }}/assets/kinh-nghiem-tu-hoc-lap-trinh.jpg) -->
 
-<center><img src="{{ site.url }}/assets/kinh-nghiem-tu-hoc-lap-trinh.jpg"></center>
+<center><img src="{{ site.url }}/assets/post1/kinh-nghiem-tu-hoc-lap-trinh.jpg"></center>
 
 [https://pythonprogramming.net/]: https://pythonprogramming.net/
 [python-fundamentials]: https://pythonprogramming.net/python-fundamental-tutorials/
