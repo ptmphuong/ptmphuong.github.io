@@ -3,7 +3,10 @@ layout: page
 title: Về Tui
 permalink: /about/
 ---
-Chào mọi người, tui là Minh Phượng (MP), hiện đang theo học MSCS Computer Science tại Seattle, nước Mỹ. 
+
+<center><img src="{{ site.url }}/assets/tuihoccode.jpg"></center>
+
+<br>Chào mọi người, tui là Minh Phượng (MP), hiện đang theo học MSCS Computer Science tại Seattle, nước Mỹ.
 
 Trước đây tui làm digital marketing tại một số tech startups ở Đài Bắc. Làm việc trong các tech team nhỏ như vậy cho phép tui tập tành làm công việc kỹ thuật liên quan đến database cùng một chút front-end và tui bắt đầu đụng đến lập trình từ đó. Sau khoảng 1 năm nghỉ việc để tìm hiểu đam muê, tự học căn bản, và xin học tại nhiều trường, cuối cùng tui cũng được nhận vào chương trình [MSCS Computer Science - Align tại trường Northeastern][align-website], kỳ Fall 2020.
 
