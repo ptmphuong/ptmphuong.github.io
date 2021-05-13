@@ -13,7 +13,7 @@ Là ma mới đến với lập trình, mong anh chị em dày dặn kinh nghi�
 
 Khi việc học hành trở nên ức chế, tui chuyển qua đọc thông tin đó đây để lên kế hoạch đi bụi, hoặc đốt một ít calories với bộ môn thể thao cờ vua :3 (anh chị em đồng môn hãy challenge tui một ván tại [lichess: jenjennyny1][my-lichess].
 
-Mọi ý kiến, góp ý, hoặc tâm thư nếu có, xin gửi về email [ptmphuong9@gmail.com][my-email], Tui sẽ trả lời trong thời gian sớm nhất.
+Mọi ý kiến, góp ý, hoặc tâm thư nếu có, xin gửi về email [ptmphuong9@gmail.com][my-email], tui sẽ trả lời trong thời gian sớm nhất.
 
 [align-website]: https://www.khoury.northeastern.edu/programs/align-masters-of-science-in-computer-science/
 [my-email]: ptmphuong9@gmail.com
