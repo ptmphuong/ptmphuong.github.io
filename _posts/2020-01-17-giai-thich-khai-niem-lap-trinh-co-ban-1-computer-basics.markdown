@@ -85,6 +85,7 @@ Cũng như ngôn ngữ con người thì code cũng có văn phạm, chính tả
 
 *Plot twist xíu*. Thực ra mã máy là ngôn ngữ lập trình đầu tiên. Còn ngôn ngữ lập trình (tui nói trên) là một tập con của mã máy. Ngôn ngữ lập trình ngày nay được phát triển để gần với tiếng người hơn, để nhiều người có thể học và nghiên cứu máy tính hơn. 
 
+
 *****
 
 Như trên là sơ bộ những kiến thức tất yếu về máy tính nói chung. Nếu tui có sai sót chỗ nào xin được nhận ý kiến và chỉ bảo thêm ạ.

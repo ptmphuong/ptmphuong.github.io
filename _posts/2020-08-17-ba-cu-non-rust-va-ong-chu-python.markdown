@@ -36,7 +36,7 @@ Bà cụ non Rust và ông chú Python, mỗi bên đều có một cá tính th
 
 **Rust là ngôn ngữ biên dịch -  compiled language**. Sau khi viết xong chương trình, code của bạn sẽ được dịch toàn bộ qua mã máy bởi Compiler. Sau khi dịch xong toàn bộ, chương trình của bạn mới được chạy.
 
-<center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-interpreted-vs-compiled.jpeg"></center>
+<center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-interpreted-vs-compiled.jpg"></center>
 <center>Nguồn ảnh: tui chứ ai.</center>
 <br>
 

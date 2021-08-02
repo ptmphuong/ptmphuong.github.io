@@ -21,7 +21,7 @@ Phân biệt một chút giữa **trình biên dịch Compiler** và **trình ph
 * Ngoài ra, mình còn có Interpreted languages như Python, JavaScript, Pearl vân vân. Code viết trong nhà máy, đang viết giữa chừng muốn test chạy thì có sẵn giám thị kiểm tra và sửa lỗi.
 * Đọc thêm về [Compiled Languages vs Interpreted Languages][compiled-languages-vs-interpreted-languages].
 
-<center><img src="{{ site.url }}/assets/compiler-tour/interpreting-vs-compiling.png"></center>
+<center><img src="{{ site.url }}/assets/compiler-tour/interpreting-vs-compiling.jpg"></center>
 
 Bây giờ mình làm một tour ngắn tham quan nhà máy Compiler nhé?
 
