@@ -43,7 +43,7 @@ Bà cụ non Rust và ông chú Python, mỗi bên đều có một cá tính th
 Lúc này, có 1 nhân vật mới xuất hiện: anh chàng Compiler - đệ tử của bà Rust nhưng khó tính không thua kém. Mới gặp thì cười cười vậy thôi chứ code thử vài dòng là sẽ thấy ngay độ dữ dằn của ảnh nhé.
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-compile-your-code.png"></center>
-<center>Nguồn ảnh: [rustconf-2016-illustrated-adventure-guide-65894363][rustconf-2016-illustrated-adventure-guide-65894363]</center>
+Nguồn ảnh: [rustconf-2016-illustrated-adventure-guide-65894363][rustconf-2016-illustrated-adventure-guide-65894363]
 <br>
 
 ### __3. Cái khó khi học Rust__
@@ -57,7 +57,7 @@ Bà Rust không chiều bạn ngọt như chú Python đâu. Bạn phải hiểu
 Ví dụ dưới đây để so sánh giữa Python và Rust. Công việc cần làm là: 1. Khai báo String x. 2. Gán y qua x
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-variable-ownership.jpeg"></center>
-<center>Python vs Rust khi khai báo String</center>
+Python vs Rust khi khai báo String
 <br>
 
 * Với Python - hình trái , bạn có thể gán dữ liệu từ `x` qua `y` và sử dụng tùy thích. Cách sử dụng ở đây là print nó ra.
@@ -89,7 +89,7 @@ Thêm nữa là quyền được gặp cả OS để chạy Concurrency và Asyn
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-performance.jpeg"></center>
 <center>So sánh performance của các ngôn ngữ lập trình, sử dụng nhiều đề bài khác nhau.</center>
-<center>Nguồn ảnh: [languages-benchmarks][languages-benchmarks]</center>
+Nguồn ảnh: [languages-benchmarks][languages-benchmarks]
 <br>
 
 Từng bước một, bạn sẽ vỡ lẽ ra những khái niệm bậc thấp trước đây được chú Python bao bọc. Cẩn thận đấy, String và List không ngây thơ như bạn đã từng biết đâu!
@@ -145,7 +145,7 @@ fn main() {
 Đấy, nếu không còn đóng góp gì nữa thì sẽ bị đào thải thôi. Chú Python đã bao bọc bạn khỏi những khắc nghiệt này. Thôi thì tin tốt là bạn không cần phải tự tay đi dọn xác của những owner đã ra đi (gặp ông bà C/C++ là bạn phải malloc để đi hốt từng xác đấy). Bà Rust là một người bạn tốt, bả sẽ giúp bạn tự động giải phóng (free) những linh hồn ấy thông qua Ownership system. Việc của bạn là đừng khi không mà đến tìm mấy địa chỉ ma (null pointer) đó thôi. Thời gian đầu không biết thì hãy chuẩn bị tinh thần ăn mắng thường xuyên từ Compiler nhe.
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-compile-your-code.png"></center>
-<center>Nguồn ảnh: [rustconf-2016-illustrated-adventure-guide-65894363][rustconf-2016-illustrated-adventure-guide-65894363]</center>
+Nguồn ảnh: [rustconf-2016-illustrated-adventure-guide-65894363][rustconf-2016-illustrated-adventure-guide-65894363]
 <br>
 
 ### __6. Kết thân với Compiler__
@@ -176,7 +176,7 @@ Tất cả những nguồn đề cập trên đều miễn phí hết nha!
 Cuối cùng, xin đính kèm thành tích của Rust để bạn lấy động lực học Rust nào. Chắc hẳn bạn cũng tò mò có gì trong ngôn ngữ lập trình được yêu thích nhất liền 5 năm trên Stackoverflow?
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-most-loved-language.png"></center>
-<center>Nguồn ảnh: [stackoverflow-2020#technology-most-loved-dreaded-and-wanted-languages-loved][stackoverflow-2020#technology-most-loved-dreaded-and-wanted-languages-loved]</center>
+Nguồn ảnh: [stackoverflow-2020#technology-most-loved-dreaded-and-wanted-languages-loved][stackoverflow-2020#technology-most-loved-dreaded-and-wanted-languages-loved]
 <br>
 
 Phù cuối cùng cũng viết xong. Ai đã đọc đến đây thì xin chân thành cảm ơn và kính chào tạm biệt! … cho đến bài tiếp theo.
