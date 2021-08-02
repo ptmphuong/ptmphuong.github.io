@@ -25,7 +25,7 @@ Phân biệt một chút giữa trình biên dịch Compiler và trình phiên d
 
 Bây giờ mình làm một tour ngắn tham quan nhà máy Compiler nhé?
 
-### Khâu 1: Preprocessing
+### __Khâu 1: Preprocessing__
 
 Source code viết xong vào nhà máy sẽ được gửi đến khâu tiền xử lý đầu tiên.
 
@@ -35,10 +35,10 @@ Vào đây, code nào có documentation hay comment sẽ được lược bỏ h
 
 Tiếp, mở rộng header files.
 
-	Header files: Thông thường code trong một file sẽ tận dụng những chương trình đã được viết sẵn ở những file khác, và khai báo ngay trên đầu file trước khi viết code nên được gọi là header files. Syntax phổ biến của header files như là
+&nbsp;&nbsp;&nbsp;&nbsp;Header files: Thông thường code trong một file sẽ tận dụng những chương trình đã được viết sẵn ở những file khác, và khai báo ngay trên đầu file trước khi viết code nên được gọi là header files. Syntax phổ biến của header files như là
 
-		`#include<stdio.h>` trong C
-		`use std::collections` trong Rust
+* `#include<stdio.h>` trong C
+* `use std::collections` trong Rust
 
 Tóm lại, khâu tiền xử lý cắt bỏ những phần máy tính không cần hiểu, và mở rộng những phần viết tắt để sẵn sàng cho quy trình xử lý.
 
