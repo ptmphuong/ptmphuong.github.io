@@ -37,8 +37,8 @@ Tiếp, mở rộng header files.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Header files: Thông thường code trong một file sẽ tận dụng những chương trình đã được viết sẵn ở những file khác, và khai báo ngay trên đầu file trước khi viết code nên được gọi là header files. Syntax phổ biến của header files như là
 
-* `#include<stdio.h>` trong C
-* `use std::collections` trong Rust
+  * `#include<stdio.h>` trong C
+  * `use std::collections` trong Rust
 
 Tóm lại, khâu tiền xử lý cắt bỏ những phần máy tính không cần hiểu, và mở rộng những phần viết tắt để sẵn sàng cho quy trình xử lý.
 
@@ -63,5 +63,25 @@ Các phòng ban và sứ mệnh của từng phòng như sau:
 Thành phẩm của khâu compilation là tạo ra chương trình dưới dạng assembly language. Tui gọi là bán thành phẩm vì assembly language cũng thuộc dạng ngôn ngữ bậc thấp, chưa hoàn thành nhưng cũng gần tới mã máy binary code lắm rồi!
 
 Mỗi công đoạn kể ra cũng đều là 1 phần mềm phức tạp bao gồm các phần mềm khác - 1 bộ phận quản lý nhiều phòng ban. Có dịp tui lại làm tour đi tham quan các phòng ban này sau.
+
+### __Khâu 3: Assembly__
+
+Khâu lắp ráp nhận chương trình đã được compiled và chuyển thành machine code là mã máy - yay! Các kiến trúc CPU khác nhau, được phân loại thành các target machine sẽ được lắp ráp theo những cách khau. 
+
+<center><img src="{{ site.url }}/assets/compiler-tour/compiler-hoat-dong-nhu-the-nao-assembly.png"></center>
+
+Sau khi lắp ráp xong, khâu Assembly sẽ cho ra kết quả là file chứa ngôn ngữ máy, trong C đây là những gile .o, chương trình nào dài thì sẽ ra nhiều file.
+
+### __Khâu cuối: Link & Load__
+
+<center><img src="{{ site.url }}/assets/compiler-tour/compiler-hoat-dong-nhu-the-nao-link-load.png"></center>
+
+Khâu hàn gắn :v. Ở khâu này, các linker sẽ tiếp nhận các file mã máy và giải quyết các vấn đề liên quan đến bộ nhớ ngoài. Cụ thể là những chương trình tận dụng code ở những chương trình khác thì nên tìm và đặt ở đâu.
+
+Xong xuôi, loader xuất hiện và gắn các cục .o thành 1 cục .exe, sẵn sàng để chạy.
+
+Phù, thế là xong 1 vòng nhà máy. Dưới đây là sơ đồ chung của nhà máy để nhìn toàn diện nha.
+
+<center><img src="{{ site.url }}/assets/compiler-tour/compiler-hoat-dong-nhu-the-nao-overall.png"></center>
 
 [compiled-languages-vs-interpreted-languages]: https://www.geeksforgeeks.org/difference-between-compiled-and-interpreted-language/
