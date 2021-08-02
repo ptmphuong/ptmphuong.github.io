@@ -25,8 +25,10 @@ Rust được sinh ra ở lò **Mozilla**, cùng lò với trình duyệt Firefo
 Nghĩ đi cũng phải nghĩ lại, ôi ông chú Python nhà mình. Ông chú đã hơn 30 tuổi rồi nhưng vẫn còn trẻ trung phết. Nếu Python xuất hiện trong hình hài con người, tui tưởng tượng Python sẽ là một ông chú mặc áo sơ mi hawaii cùng chiếc quần jeans thụng bạc màu, mặt mày hớn hở cười tươi, tay thì kéo một chiếc vali siêu bự một đống đồ nghề (là các thư viện ấy) tích trữ mấy chục năm nay. Chưa hết, ông chú Python còn có hẳn 1 cái fanclub chiếm đa phần là các nam thanh nữ tú bắt đầu đến với lập trình, tui cũng ở trỏng nè.
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python.jpeg"></center>
-<center>[Nguồn ảnh][https://leftoversalad.com/c/015_programmingpeople/
-[programming-languages-sketches]</center>
+<center>Nguồn ảnh: [https://leftoversalad.com/c/015_programmingpeople/
+programming-languages-sketches][https://leftoversalad.com/c/015_programmingpeople/
+programming-languages-sketches]</center>
+<br>
 
 Bà cụ non Rust và ông chú Python, mỗi bên đều có một cá tính thú vị. 
 
@@ -38,11 +40,13 @@ Bà cụ non Rust và ông chú Python, mỗi bên đều có một cá tính th
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-interpreted-vs-compiled.jpeg"></center>
 <center>Nguồn ảnh: tui chứ ai.</center>
+<br>
 
 Lúc này, có 1 nhân vật mới xuất hiện: anh chàng Compiler - đệ tử của bà Rust nhưng khó tính không thua kém. Mới gặp thì cười cười vậy thôi chứ code thử vài dòng là sẽ thấy ngay độ dữ dằn của ảnh nhé.
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-compile-your-code.png"></center>
-<center>[Nguồn ảnh][https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363]</center>
+<center>Nguồn ảnh: [https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363][https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363]</center>
+<br>
 
 ### __3. Cái khó khi học Rust__
 
@@ -56,6 +60,7 @@ Ví dụ dưới đây để so sánh giữa Python và Rust. Công việc cần
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-variable-ownership.jpeg"></center>
 <center>Python vs Rust khi khai báo String</center>
+<br>
 
 * Với Python - hình trái , bạn có thể gán dữ liệu từ `x` qua `y` và sử dụng tùy thích. Cách sử dụng ở đây là print nó ra.
 * Với Rust - hình phải, khi viết `let x = y`, bạn đã chuyển Ownership (quyền làm chủ dữ liệu) của dòng String từ `x` qua `y`. Lúc này, Compiler sẽ chặn bạn khỏi nỗ lực print `x` - 1 biến rỗng.
@@ -80,12 +85,14 @@ Quyền tạo ra các loại dữ liệu đặc thù sử dụng struct và enum
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-if-syntax.jpeg"></center>
 <center>So sánh syntax của `if` statement và `match` trong Rust.</center>
+<br>
 
 Thêm nữa là quyền được gặp cả OS để chạy Concurrency và Asynchronous - hiểu gọn là phân luồng cho nhiều công việc chạy cùng nhau cùng lúc. Nắm được các bí kíp này, chương trình có thể chạy nhanh hơn gấp nhiều lần. (khái niệm Concerrency này cũng có thể được vận dụng ở C, tuy nhiên Rust được thiết kế để chạy an toàn hơn - như đã hứa trong sứ mệnh ra đời).
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-performance.jpeg"></center>
 <center>So sánh performance của các ngôn ngữ lập trình, sử dụng nhiều đề bài khác nhau.</center>
-<center>Nguồn ảnh: [https://julialang.org/benchmarks/]</center>
+<center>Nguồn ảnh: [https://julialang.org/benchmarks/][https://julialang.org/benchmarks/]</center>
+<br>
 
 Từng bước một, bạn sẽ vỡ lẽ ra những khái niệm bậc thấp trước đây được chú Python bao bọc. Cẩn thận đấy, String và List không ngây thơ như bạn đã từng biết đâu!
 
@@ -140,7 +147,8 @@ fn main() {
 Đấy, nếu không còn đóng góp gì nữa thì sẽ bị đào thải thôi. Chú Python đã bao bọc bạn khỏi những khắc nghiệt này. Thôi thì tin tốt là bạn không cần phải tự tay đi dọn xác của những owner đã ra đi (gặp ông bà C/C++ là bạn phải malloc để đi hốt từng xác đấy). Bà Rust là một người bạn tốt, bả sẽ giúp bạn tự động giải phóng (free) những linh hồn ấy thông qua Ownership system. Việc của bạn là đừng khi không mà đến tìm mấy địa chỉ ma (null pointer) đó thôi. Thời gian đầu không biết thì hãy chuẩn bị tinh thần ăn mắng thường xuyên từ Compiler nhe.
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-compile-your-code.png"></center>
-<center>Nguồn ảnh: [https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363]</center>
+<center>Nguồn ảnh: [https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363][https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363]</center>
+<br>
 
 ### __6. Kết thân với Compiler__
 
@@ -157,8 +165,8 @@ Tuy nhiên, thật lòng mà nói thì compiler rất chi tiết trong việc ch
 
 Tài liệu Học Rust:
 
-- Nếu bạn đang thắc mắc "Chỉ biết mỗi Python thôi thì có học Rust được không?" Ơ, thế đứa nào đang viết bài này? Tuy nhiên, nếu bạn chưa có kiến thức về memory, chịu khó detour học [CS50] nhé. Thầy sẽ sử dụng C căn bản để hỗ trợ giải thích. Kiến thức này sẽ bổ trợ rất nhiều cho bước tiếp theo. 
-- Đọc [sách Rust] - đây là Bible học Rust, sách rất hay, mạch lạc, gần gũi và là tất cả những gì bạn cần để hiểu về Rust. 
+- Nếu bạn đang thắc mắc "Chỉ biết mỗi Python thôi thì có học Rust được không?" Ơ, thế đứa nào đang viết bài này? Tuy nhiên, nếu bạn chưa có kiến thức về memory, chịu khó detour học [CS50][CS50] nhé. Thầy sẽ sử dụng C căn bản để hỗ trợ giải thích. Kiến thức này sẽ bổ trợ rất nhiều cho bước tiếp theo. 
+- Đọc [sách Rust][sách Rust] - đây là Bible học Rust, sách rất hay, mạch lạc, gần gũi và là tất cả những gì bạn cần để hiểu về Rust. 
 
 Theo dõi tin tức mới nhất của Rust:
 
@@ -170,9 +178,11 @@ Tất cả những nguồn đề cập trên đều miễn phí hết nha!
 Cuối cùng, xin đính kèm thành tích của Rust để bạn lấy động lực học Rust nào. Chắc hẳn bạn cũng tò mò có gì trong ngôn ngữ lập trình được yêu thích nhất liền 5 năm trên Stackoverflow?
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-most-loved-language.png"></center>
-<center>Nguồn ảnh: [https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved]</center>
+<center>Nguồn ảnh: [https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved][https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved]</center>
+<br>
 
 Phù cuối cùng cũng viết xong. Ai đã đọc đến đây thì xin chân thành cảm ơn và kính chào tạm biệt! … cho đến bài tiếp theo.
+
 [https://leftoversalad.com/c/015_programmingpeople/]: https://leftoversalad.com/c/015_programmingpeople/
 [https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363]: https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363
 [https://julialang.org/benchmarks/]: https://julialang.org/benchmarks/
