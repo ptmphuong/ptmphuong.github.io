@@ -19,7 +19,6 @@ Phân biệt một chút giữa trình biên dịch Compiler và trình phiên d
 
 * Những ngôn ngữ như C, C++, Java, Rust và đa phần những ngôn ngữ khó nuốt là Compiled languages (ngôn ngữ biên dịch). Code viết xong rồi mới được gửi vào nhà máy cho xử lý. Xử lý xong thì đến nhận file để tự chạy ra kết quả.
 * Ngoài ra, mình còn có Interpreted languages như Python, JavaScript, Pearl vân vân. Code viết trong nhà máy, đang viết giữa chừng muốn test chạy thì có sẵn giám thị kiểm tra và sửa lỗi.
-
 * Đọc thêm về [Compiled Languages vs Interpreted Languages][compiled-languages-vs-interpreted-languages].
 
 <center><img src="{{ site.url }}/assets/compiler-tour/interpreting-vs-compiling.png"></center>
@@ -33,5 +32,36 @@ Source code viết xong vào nhà máy sẽ được gửi đến khâu tiền x
 <center><img src="{{ site.url }}/assets/compiler-tour/compiler-hoat-dong-nhu-the-nao-preprocessing.png"></center>
 
 Vào đây, code nào có documentation hay comment sẽ được lược bỏ hết, máy tính tụi nó nào có quan tâm.
+
+Tiếp, mở rộng header files.
+
+	Header files: Thông thường code trong một file sẽ tận dụng những chương trình đã được viết sẵn ở những file khác, và khai báo ngay trên đầu file trước khi viết code nên được gọi là header files. Syntax phổ biến của header files như là
+
+		`#include<stdio.h>` trong C
+		`use std::collections` trong Rust
+
+Tóm lại, khâu tiền xử lý cắt bỏ những phần máy tính không cần hiểu, và mở rộng những phần viết tắt để sẵn sàng cho quy trình xử lý.
+
+### __Khâu 2: Compilation__
+
+Compilation hay biên dịch là khâu căng nhất và đồ sộ nhất trong bộ máy.  
+
+Khâu này nhận xử lý những vật liệu thô sơ - là source code vừa được sơ chế ở trên - và sản xuất ra các bán thành phẩm là những file chứa assembly code.
+
+<center><img src="{{ site.url }}/assets/compiler-tour/compiler-hoat-dong-nhu-the-nao-compilation.png"></center>
+
+Các phòng ban và sứ mệnh của từng phòng như sau:
+
+* **Analysis** - phân tích xem chính tả, syntax, khai báo kiểu dữ liệu, và logic của code có ra hồn và đúng với quy định của ngôn ngữ lập trình không. Đồng thời tạo các loại bảng, hộp chứa thông tin để chứa dữ liệu.
+
+* **Parsing** - rà soát dữ liệu cho vào các bảng chứa thông tin (symbol table), và tạo ra các biểu đồ (abstract binary tree) dựa trên logic của chương trình. Sau bước này, những trang code mình viết không còn nữa mà thay vào đó là các loại table và graph chứa thông tin cần thiết.
+
+* **Optimize** - cắt bỏ những chỗ không cần thiết và rút gọn dữ liệu để chuẩn bị cho công đoạn biến hình.
+
+* **Code generation** - vận dụng thông tin ở các bảng và biểu đồ để biến code thành assembly code.
+
+Thành phẩm của khâu compilation là tạo ra chương trình dưới dạng assembly language. Tui gọi là bán thành phẩm vì assembly language cũng thuộc dạng ngôn ngữ bậc thấp, chưa hoàn thành nhưng cũng gần tới mã máy binary code lắm rồi!
+
+Mỗi công đoạn kể ra cũng đều là 1 phần mềm phức tạp bao gồm các phần mềm khác - 1 bộ phận quản lý nhiều phòng ban. Có dịp tui lại làm tour đi tham quan các phòng ban này sau.
 
 [compiled-languages-vs-interpreted-languages]: https://www.geeksforgeeks.org/difference-between-compiled-and-interpreted-language/
