@@ -17,11 +17,21 @@ Nhà máy biên dịch có nhiều khâu: cắt xén, thêm thắt, chỉnh sử
 
 Phân biệt một chút giữa trình biên dịch Compiler và trình phiên dịch Interpreter:
 
-  * Những ngôn ngữ như C, C++, Java, Rust và đa phần những ngôn ngữ khó nuốt là Compiled languages (ngôn ngữ biên dịch). Code viết xong rồi mới được gửi vào nhà máy cho xử lý. Xử lý xong thì đến nhận file để tự chạy ra kết quả.
-  * Ngoài ra, mình còn có Interpreted languages như Python, JavaScript, Pearl vân vân. Code viết trong nhà máy, đang viết giữa chừng muốn test chạy thì có sẵn giám thị kiểm tra và sửa lỗi.
+* Những ngôn ngữ như C, C++, Java, Rust và đa phần những ngôn ngữ khó nuốt là Compiled languages (ngôn ngữ biên dịch). Code viết xong rồi mới được gửi vào nhà máy cho xử lý. Xử lý xong thì đến nhận file để tự chạy ra kết quả.
+* Ngoài ra, mình còn có Interpreted languages như Python, JavaScript, Pearl vân vân. Code viết trong nhà máy, đang viết giữa chừng muốn test chạy thì có sẵn giám thị kiểm tra và sửa lỗi.
 
-  * Đọc thêm về [Compiled Languages vs Interpreted Languages][compiled-languages-vs-interpreted-languages].
+* Đọc thêm về [Compiled Languages vs Interpreted Languages][compiled-languages-vs-interpreted-languages].
 
 <center><img src="{{ site.url }}/assets/compiler-tour/interpreting-vs-compiling.png"></center>
+
+Bây giờ mình làm một tour ngắn tham quan nhà máy Compiler nhé?
+
+### Khâu 1: Preprocessing
+
+Source code viết xong vào nhà máy sẽ được gửi đến khâu tiền xử lý đầu tiên.
+
+<center><img src="{{ site.url }}/assets/compiler-tour/compiler-hoat-dong-nhu-the-nao-preprocessing.png"></center>
+
+Vào đây, code nào có documentation hay comment sẽ được lược bỏ hết, máy tính tụi nó nào có quan tâm.
 
 [compiled-languages-vs-interpreted-languages]: https://www.geeksforgeeks.org/difference-between-compiled-and-interpreted-language/
