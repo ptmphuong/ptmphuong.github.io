@@ -26,8 +26,7 @@ Nghĩ đi cũng phải nghĩ lại, ôi ông chú Python nhà mình. Ông chú �
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python.jpeg"></center>
 <center>Nguồn ảnh: [https://leftoversalad.com/c/015_programmingpeople/
-programming-languages-sketches][https://leftoversalad.com/c/015_programmingpeople/
-programming-languages-sketches]</center>
+programming-languages-sketches][programming-languages-sketches]</center>
 <br>
 
 Bà cụ non Rust và ông chú Python, mỗi bên đều có một cá tính thú vị. 
@@ -45,7 +44,7 @@ Bà cụ non Rust và ông chú Python, mỗi bên đều có một cá tính th
 Lúc này, có 1 nhân vật mới xuất hiện: anh chàng Compiler - đệ tử của bà Rust nhưng khó tính không thua kém. Mới gặp thì cười cười vậy thôi chứ code thử vài dòng là sẽ thấy ngay độ dữ dằn của ảnh nhé.
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-compile-your-code.png"></center>
-<center>Nguồn ảnh: [https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363][https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363]</center>
+<center>Nguồn ảnh: [https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363][rustconf-2016-illustrated-adventure-guide-65894363]</center>
 <br>
 
 ### __3. Cái khó khi học Rust__
@@ -91,7 +90,7 @@ Thêm nữa là quyền được gặp cả OS để chạy Concurrency và Asyn
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-performance.jpeg"></center>
 <center>So sánh performance của các ngôn ngữ lập trình, sử dụng nhiều đề bài khác nhau.</center>
-<center>Nguồn ảnh: [https://julialang.org/benchmarks/][https://julialang.org/benchmarks/]</center>
+<center>Nguồn ảnh: [https://julialang.org/benchmarks/][languages-benchmarks]</center>
 <br>
 
 Từng bước một, bạn sẽ vỡ lẽ ra những khái niệm bậc thấp trước đây được chú Python bao bọc. Cẩn thận đấy, String và List không ngây thơ như bạn đã từng biết đâu!
@@ -183,9 +182,9 @@ Cuối cùng, xin đính kèm thành tích của Rust để bạn lấy động 
 
 Phù cuối cùng cũng viết xong. Ai đã đọc đến đây thì xin chân thành cảm ơn và kính chào tạm biệt! … cho đến bài tiếp theo.
 
-[https://leftoversalad.com/c/015_programmingpeople/]: https://leftoversalad.com/c/015_programmingpeople/
-[https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363]: https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363
-[https://julialang.org/benchmarks/]: https://julialang.org/benchmarks/
+[programming-languages-sketches]: https://leftoversalad.com/c/015_programmingpeople/
+[rustconf-2016-illustrated-adventure-guide-65894363]: https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363
+[languages-benchmarks]: https://julialang.org/benchmarks/
 [CS50]: https://online-learning.harvard.edu/course/cs50-introduction-computer-science?delta=0
 [sách Rust]: https://doc.rust-lang.org/book/title-page.html
 [https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved]: https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved
