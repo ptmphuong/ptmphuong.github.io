@@ -25,7 +25,7 @@ Rust được sinh ra ở lò **Mozilla**, cùng lò với trình duyệt Firefo
 Nghĩ đi cũng phải nghĩ lại, ôi ông chú Python nhà mình. Ông chú đã hơn 30 tuổi rồi nhưng vẫn còn trẻ trung phết. Nếu Python xuất hiện trong hình hài con người, tui tưởng tượng Python sẽ là một ông chú mặc áo sơ mi hawaii cùng chiếc quần jeans thụng bạc màu, mặt mày hớn hở cười tươi, tay thì kéo một chiếc vali siêu bự một đống đồ nghề (là các thư viện ấy) tích trữ mấy chục năm nay. Chưa hết, ông chú Python còn có hẳn 1 cái fanclub chiếm đa phần là các nam thanh nữ tú bắt đầu đến với lập trình, tui cũng ở trỏng nè.
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python.jpeg"></center>
-<center>Nguồn ảnh: [programming-languages-sketches][programming-languages-sketches]</center>
+Nguồn ảnh: [programming-languages-sketches][programming-languages-sketches]
 <br>
 
 Bà cụ non Rust và ông chú Python, mỗi bên đều có một cá tính thú vị. 
