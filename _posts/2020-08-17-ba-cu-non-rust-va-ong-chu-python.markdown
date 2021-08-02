@@ -25,8 +25,7 @@ Rust được sinh ra ở lò **Mozilla**, cùng lò với trình duyệt Firefo
 Nghĩ đi cũng phải nghĩ lại, ôi ông chú Python nhà mình. Ông chú đã hơn 30 tuổi rồi nhưng vẫn còn trẻ trung phết. Nếu Python xuất hiện trong hình hài con người, tui tưởng tượng Python sẽ là một ông chú mặc áo sơ mi hawaii cùng chiếc quần jeans thụng bạc màu, mặt mày hớn hở cười tươi, tay thì kéo một chiếc vali siêu bự một đống đồ nghề (là các thư viện ấy) tích trữ mấy chục năm nay. Chưa hết, ông chú Python còn có hẳn 1 cái fanclub chiếm đa phần là các nam thanh nữ tú bắt đầu đến với lập trình, tui cũng ở trỏng nè.
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python.jpeg"></center>
-<center>Nguồn ảnh: [https://leftoversalad.com/c/015_programmingpeople/
-programming-languages-sketches][programming-languages-sketches]</center>
+<center>Nguồn ảnh: [programming-languages-sketches][programming-languages-sketches]</center>
 <br>
 
 Bà cụ non Rust và ông chú Python, mỗi bên đều có một cá tính thú vị. 
@@ -44,7 +43,7 @@ Bà cụ non Rust và ông chú Python, mỗi bên đều có một cá tính th
 Lúc này, có 1 nhân vật mới xuất hiện: anh chàng Compiler - đệ tử của bà Rust nhưng khó tính không thua kém. Mới gặp thì cười cười vậy thôi chứ code thử vài dòng là sẽ thấy ngay độ dữ dằn của ảnh nhé.
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-compile-your-code.png"></center>
-<center>Nguồn ảnh: [https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363][rustconf-2016-illustrated-adventure-guide-65894363]</center>
+<center>Nguồn ảnh: [rustconf-2016-illustrated-adventure-guide-65894363][rustconf-2016-illustrated-adventure-guide-65894363]</center>
 <br>
 
 ### __3. Cái khó khi học Rust__
@@ -90,7 +89,7 @@ Thêm nữa là quyền được gặp cả OS để chạy Concurrency và Asyn
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-performance.jpeg"></center>
 <center>So sánh performance của các ngôn ngữ lập trình, sử dụng nhiều đề bài khác nhau.</center>
-<center>Nguồn ảnh: [https://julialang.org/benchmarks/][languages-benchmarks]</center>
+<center>Nguồn ảnh: [languages-benchmarks][languages-benchmarks]</center>
 <br>
 
 Từng bước một, bạn sẽ vỡ lẽ ra những khái niệm bậc thấp trước đây được chú Python bao bọc. Cẩn thận đấy, String và List không ngây thơ như bạn đã từng biết đâu!
@@ -146,7 +145,7 @@ fn main() {
 Đấy, nếu không còn đóng góp gì nữa thì sẽ bị đào thải thôi. Chú Python đã bao bọc bạn khỏi những khắc nghiệt này. Thôi thì tin tốt là bạn không cần phải tự tay đi dọn xác của những owner đã ra đi (gặp ông bà C/C++ là bạn phải malloc để đi hốt từng xác đấy). Bà Rust là một người bạn tốt, bả sẽ giúp bạn tự động giải phóng (free) những linh hồn ấy thông qua Ownership system. Việc của bạn là đừng khi không mà đến tìm mấy địa chỉ ma (null pointer) đó thôi. Thời gian đầu không biết thì hãy chuẩn bị tinh thần ăn mắng thường xuyên từ Compiler nhe.
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-vs-python-compile-your-code.png"></center>
-<center>Nguồn ảnh: [https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363][https://www.slideshare.net/LizBaillie/rustconf-2016-illustrated-adventure-guide-65894363]</center>
+<center>Nguồn ảnh: [rustconf-2016-illustrated-adventure-guide-65894363][rustconf-2016-illustrated-adventure-guide-65894363]</center>
 <br>
 
 ### __6. Kết thân với Compiler__
@@ -177,7 +176,7 @@ Tất cả những nguồn đề cập trên đều miễn phí hết nha!
 Cuối cùng, xin đính kèm thành tích của Rust để bạn lấy động lực học Rust nào. Chắc hẳn bạn cũng tò mò có gì trong ngôn ngữ lập trình được yêu thích nhất liền 5 năm trên Stackoverflow?
 
 <center><img src="{{ site.url }}/assets/rust-vs-python/rust-most-loved-language.png"></center>
-<center>Nguồn ảnh: [https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved][https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved]</center>
+<center>Nguồn ảnh: [stackoverflow-2020#technology-most-loved-dreaded-and-wanted-languages-loved][stackoverflow-2020#technology-most-loved-dreaded-and-wanted-languages-loved]</center>
 <br>
 
 Phù cuối cùng cũng viết xong. Ai đã đọc đến đây thì xin chân thành cảm ơn và kính chào tạm biệt! … cho đến bài tiếp theo.
@@ -187,4 +186,4 @@ Phù cuối cùng cũng viết xong. Ai đã đọc đến đây thì xin chân 
 [languages-benchmarks]: https://julialang.org/benchmarks/
 [CS50]: https://online-learning.harvard.edu/course/cs50-introduction-computer-science?delta=0
 [sách Rust]: https://doc.rust-lang.org/book/title-page.html
-[https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved]: https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved
+[stackoverflow-2020#technology-most-loved-dreaded-and-wanted-languages-loved]: https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved
