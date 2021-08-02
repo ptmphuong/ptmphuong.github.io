@@ -11,11 +11,11 @@ Tui đi hỏi bụt (google), lật mấy trang sách, để hiểu hơn sự k�
 
 <center><img src="{{ site.url }}/assets/compiler-tour/compiler-hoat-dong-nhu-the-nao.png"></center>
 
-Compiler - tui gọi là nhà máy biên dịch code, thật ra là 1 chương trình software đồ sộ và hoàn chỉnh. Code mình viết ngày nay C, C++, Rust, Java, Python,... đều thuộc nhóm ngôn ngữ lập trình bậc cao - người hiểu nhưng máy không hiểu. Do đó, code viết xong được gửi vào nhà máy biên dịch để được chuyển đổi.
+**Compiler** - tui gọi là nhà máy biên dịch code, thật ra là 1 chương trình software đồ sộ và hoàn chỉnh. Code mình viết ngày nay C, C++, Rust, Java, Python,... đều thuộc nhóm ngôn ngữ lập trình bậc cao - người hiểu nhưng máy không hiểu. Do đó, code viết xong được gửi vào nhà máy biên dịch để được chuyển đổi.
 
 Nhà máy biên dịch có nhiều khâu: cắt xén, thêm thắt, chỉnh sửa, chuyển đổi, để rồi cuối cùng đóng gói để tạo ra thành phẩm là mã máy, để máy tính có thể xử lý và chạy theo.
 
-Phân biệt một chút giữa trình biên dịch Compiler và trình phiên dịch Interpreter:
+Phân biệt một chút giữa **trình biên dịch Compiler** và **trình phiên dịch Interpreter**:
 
 * Những ngôn ngữ như C, C++, Java, Rust và đa phần những ngôn ngữ khó nuốt là Compiled languages (ngôn ngữ biên dịch). Code viết xong rồi mới được gửi vào nhà máy cho xử lý. Xử lý xong thì đến nhận file để tự chạy ra kết quả.
 * Ngoài ra, mình còn có Interpreted languages như Python, JavaScript, Pearl vân vân. Code viết trong nhà máy, đang viết giữa chừng muốn test chạy thì có sẵn giám thị kiểm tra và sửa lỗi.
@@ -39,6 +39,15 @@ Tiếp, mở rộng header files.
 
   * `#include<stdio.h>` trong C
   * `use std::collections` trong Rust
+
+&nbsp;&nbsp;&nbsp;&nbsp;Xử lý header files, các bạn công nhân sẽ dựa trên tên header files được khai báo để đi tìm file gốc, sau đó copy code gốc và dán vào cái source code cần chạy.
+
+Tiếp, mở rộng macro.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Macro là một dạng viết code động - code tạo ra code. Macro code sau khi được mở rộng sẽ tạo ra 1 nhóm code tương thích với các dòng khác trong source code. C, Rust là những ngôn ngữ điển hình có support macro.
+
+  * `#define`, `__FILE_NAME__` là những macro điển hình trong C
+  * `#derive`, `println!`, `vec!` trong Rust
 
 Tóm lại, khâu tiền xử lý cắt bỏ những phần máy tính không cần hiểu, và mở rộng những phần viết tắt để sẵn sàng cho quy trình xử lý.
 
