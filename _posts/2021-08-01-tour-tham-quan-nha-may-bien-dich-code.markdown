@@ -63,7 +63,7 @@ Các phòng ban và sứ mệnh của từng phòng như sau:
 
 * **Analysis** - phân tích xem chính tả, syntax, khai báo kiểu dữ liệu, và logic của code có ra hồn và đúng với quy định của ngôn ngữ lập trình không. Đồng thời tạo các loại bảng, hộp chứa thông tin để chứa dữ liệu.
 
-* **Parsing** - rà soát dữ liệu cho vào các bảng chứa thông tin (symbol table), và tạo ra các biểu đồ (abstract binary tree) dựa trên logic của chương trình. Sau bước này, những trang code mình viết không còn nữa mà thay vào đó là các loại table và graph chứa thông tin cần thiết.
+* **Parsing** - rà soát dữ liệu cho vào các bảng chứa thông tin (symbol table), và tạo ra các biểu đồ (abstract syntax tree) dựa trên logic của chương trình. Sau bước này, những trang code mình viết không còn nữa mà thay vào đó là các loại table và graph chứa thông tin cần thiết.
 
 * **Optimize** - cắt bỏ những chỗ không cần thiết và rút gọn dữ liệu để chuẩn bị cho công đoạn biến hình.
 
