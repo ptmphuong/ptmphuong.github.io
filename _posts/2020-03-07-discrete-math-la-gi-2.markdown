@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Discrete Math dạy những gì? Và học Discrete Math online ở đâu?""
-date:   2020-04-07 09:32:00 -0700
+title:  "Discrete Math Dạy Những Gì? Và Học Discrete Math Online Ở Đâu?"
+date:   2020-03-07 09:05:03 -0700
 categories: cs-foundation
 ---
 
@@ -85,9 +85,9 @@ Bạn có thể nghe thử bài đầu để được sự hay ho của Discrete
 Ngoài các video trên youtube, MIT có cung cấp đầy đủ tài liệu sách giáo khoa, handouts, bài tập, bài thi và bài giải miễn phí trên website khóa học. SGK do thầy Tom và đồng nghiệp biên soạn riêng, đọc rất hay, nhiều ví dụ thông minh và dí dỏm. Có một vài lecture khá khó nuốt nên việc đọc sách sẽ hỗ trợ bạn rất nhiều trong việc theo sát khóa học. 
 
 Discrete Math by MIT Open Course Ware:
-- [Youtube link cho cả khóa học][MIT-discrete-math-course-youtube]
-- [Website khóa học][MIT-discrete-math-course-official-website]
-- [Thầy Tọm][thay-toms-link]
+* [Youtube link cho cả khóa học][MIT-discrete-math-course-youtube]
+* [Website khóa học][MIT-discrete-math-course-official-website]
+* [Thầy Tọm][thay-toms-link]
 
 Ngoài khóa này thì tui có nghe thêm một số giảng viên khác trên youtube để hiểu sâu hơn, link dưới đây:
 
@@ -102,12 +102,13 @@ Dưới đây tui bonus thêm các link của những nguồn giải thích rấ
 
 Vậy hen, mong các bạn có thể hiểu hơn về Discrete Math qua bài viết này. Happy study! 
 
-[link-to-discrete-math-2]: http://127.0.0.1:4000/cs-foundation/2020/03/02/discrete-math-la-gi-1.html
-[Youtube link cho cả khóa học]: https://www.youtube.com/watch?v=L3LMbpZIKhQ&ab_channel=MITOpenCourseWare
-[Website khóa học]: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/
-[Thầy Tọm]: https://en.wikipedia.org/wiki/F._Thomson_Leighton
-[Introduction to Cryptography by Christof Paar]: https://www.youtube.com/watch?v=fq6SXByItUI&ab_channel=IntroductiontoCryptographybyChristofPaar
-[Modular Arithmetic and Historical Ciphers by Christof Paar]: https://www.youtube.com/watch?v=W1SY6qKZrUk&ab_channel=IntroductiontoCryptographybyChristofPaar
-[Video giải thích Discrete Math của 1 anh trai dễ thương]: https://www.youtube.com/watch?v=1FfX2xW3104&t=13s&ab_channel=freeCodeCamp.org
-[Bài viết giải thích Discrete Math của Uni of Buffalo]: https://cse.buffalo.edu/~rapaport/191/S09/whatisdiscmath.html
-[Một bài viết hardcore hơn xíu của Viện Hàn Lâm KHXH bàn về tính liên tục và rời rạc trong toán học và triết học]: http://philosophy.vass.gov.vn/nghien-cuu-theo-chuyen-de/Logic-hoc/Tinh-lien-tuc-va-roi-rac-chuyen-dong-va-dung-yen-trong-lich-su-phat-trien-phep-tinh-vi-phan-va-tich-phan-184.html
+[link-to-discrete-math-1]: https://tuihoccode.com/cs-foundation/2020/03/03/discrete-math-la-gi-1.html
+[MIT-discrete-math-course-youtube]: https://www.youtube.com/watch?v=L3LMbpZIKhQ&ab_channel=MITOpenCourseWare
+[MIT-discrete-math-course-official-website]: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/
+[thay-toms-link]: https://en.wikipedia.org/wiki/F._Thomson_Leighton
+
+[introduction-to-cryptography]: https://www.youtube.com/watch?v=fq6SXByItUI&ab_channel=IntroductiontoCryptographybyChristofPaar
+[modular-arithmetic-and-historical-ciphers]: https://www.youtube.com/watch?v=W1SY6qKZrUk&ab_channel=IntroductiontoCryptographybyChristofPaar
+[discrete-math-explained-cute]: https://www.youtube.com/watch?v=1FfX2xW3104&t=13s&ab_channel=freeCodeCamp.org
+[discrete-math-explained-written]: https://cse.buffalo.edu/~rapaport/191/S09/whatisdiscmath.html
+[discrete-math-philosophy]: http://philosophy.vass.gov.vn/nghien-cuu-theo-chuyen-de/Logic-hoc/Tinh-lien-tuc-va-roi-rac-chuyen-dong-va-dung-yen-trong-lich-su-phat-trien-phep-tinh-vi-phan-va-tich-phan-184.html
