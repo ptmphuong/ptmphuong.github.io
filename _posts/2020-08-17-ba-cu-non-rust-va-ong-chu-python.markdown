@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bà cụ non Rust và ông chú Python"
+title:  "Bà Cụ Non Rust và Ông Chú Python"
 date:   2020-08-17 06:46:00 -0700
 categories: programming-languages
 ---

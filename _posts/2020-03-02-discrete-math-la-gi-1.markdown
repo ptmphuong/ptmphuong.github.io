@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Discrete Math là gì? Tại sao học Computer Science phải học Discrete Math?"
+title:  "Discrete Math Là Gì? Tại Sao Học Computer Science Phải Học Discrete Math?"
 date:   2020-03-02 17:05:23 -0700
 categories: cs-foundation
 ---

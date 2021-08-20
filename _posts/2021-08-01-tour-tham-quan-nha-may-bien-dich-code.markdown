@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tour tham quan nhà máy biên dịch code  Compiler"
+title:  "Tour Tham Quan Nhà Máy Biên Dịch Code  Compiler"
 date:   2021-08-01 19:35:00 -0700
 categories: cs-foundation
 ---
