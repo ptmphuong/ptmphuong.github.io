@@ -67,4 +67,4 @@ Vậy **Discrete Math dạy những gì? Và học Discrete Math online ở đâ
 
 
 [link-to-computer-basics]: https://tuihoccode.com/cs-foundation/2020/01/17/giai-thich-khai-niem-lap-trinh-co-ban-1-computer-basics.html
-[discrete-math-day-nhung-gi]: http://127.0.0.1:4000/cs-foundation/2020/03/02/discrete-math-la-gi-2.html
+[discrete-math-day-nhung-gi]: https://tuihoccode.com/cs-foundation/2020/03/07/discrete-math-la-gi-2.html
