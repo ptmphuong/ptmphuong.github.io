@@ -184,7 +184,7 @@ Tiếng Việt:
 * [OOP là khỉ gì?][oop-la-khi-gi]
 
 [video-object-oriented-programming-in-7-minutes]: https://www.youtube.com/watch?v=pTB0EiLXUC8&t=75s&ab_channel=ProgrammingwithMosh
-[what-is-class-and-object-in-java-OOPS]: https://www.guru99.com/java-oops-class-objects.html
+[what-is-class-and-object-in-java-OOPS]: 
 [how-to-explain-object-oriented-programming-concept-to-a-6-year-old]: https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/
 [python-object-oriented-programming]: https://www.datacamp.com/community/tutorials/python-oop-tutorial
 [oop-la-khi-gi]: https://kipalog.com/posts/OOP-la-khi-gi-
