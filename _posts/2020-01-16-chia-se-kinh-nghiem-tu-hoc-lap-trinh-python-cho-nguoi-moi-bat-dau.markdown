@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chia Sẻ Kinh Nghiệm Tự Học Lập Trình Python Cho Người Mới Bắt Đầu"
+title:  "Chia sẻ kinh nghiệm tự học lập trình Python cho người mới bắt đầu"
 date:   2020-01-16 10:43:23 -0700
 categories: thoughts
 ---

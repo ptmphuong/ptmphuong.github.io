@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Giải Thích Khái Niệm Lập Trình Cơ Bản 2 - PROGRAMMING PARADIGMS"
+title:  "Giải thích khái niệm lập trình cơ bản 2 - PROGRAMMING PARADIGMS"
 categories: cs-foundation
 ---
 

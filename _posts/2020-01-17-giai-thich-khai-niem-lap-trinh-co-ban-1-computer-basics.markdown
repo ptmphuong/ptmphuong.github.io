@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Giải Thích Khái Niệm Lập Trình Cơ Bản 1 - COMPUTER BASICS"
+title:  "Giải thích khái niệm lập trình cơ bản 1 - COMPUTER BASICS"
 date:   2020-01-17 09:14:00 -0700
 categories: cs-foundation
 ---

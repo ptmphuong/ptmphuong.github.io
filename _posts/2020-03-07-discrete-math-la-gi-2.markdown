@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Discrete Math Dạy Những Gì? Và Học Discrete Math Online Ở Đâu?"
+title:  "Discrete Math dạy những gì? Và học Discrete Math online ở đâu?"
 date:   2020-03-07 09:05:03 -0700
 categories: cs-foundation
 ---

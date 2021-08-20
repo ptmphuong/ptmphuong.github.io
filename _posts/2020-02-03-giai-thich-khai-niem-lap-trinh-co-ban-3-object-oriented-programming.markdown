@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lập Trình Hướng Đối Tượng (Object Oriented Programming / OOP) Là Gì?"
+title:  "Lập trình hướng đối tượng (Object Oriented Programming / OOP) là gì?"
 date:   2020-02-03 07:58:23 -0700
 categories: cs-foundation
 ---
