@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "Tour tham quan mhà máy Biên dịch Code - Compiler"
+title:  "Tour tham quan nhà máy Biên dịch Code - Compiler"
 date:   2021-08-01 19:35:00 -0700
 categories: cs-foundation
 ---
 
-**Viết được 1 đoạn code lởm, nhưng thôi cũng thử bấm nút compile, thế là ra được 1 cái file .exe. Hít hà lấy hơi mạnh dạn double click lên chiếc file .exe, nít thở chờ đợi, ai ngờ nó chạy thật. Ngẩn ngơ tò te tui tự hỏi, code viết dở hơi thế kia mà làm sao vẫn chạy được?**
+Viết được 1 đoạn code lởm, nhắm mắt nhắm mũi bấm đại nút compile, thế là ra được 1 cái file .exe. <br>
+Tui hít hà hít hà... lấy hơi mạnh dạn double click chiếc file. Nín thở chờ đợi, mẹ ơi ai ngờ nó chạy thật. <br>
+Ngẩn ngơ tò te tui tự hỏi, code viết dở hơi thế kia mà làm sao vẫn chạy được? <br>
 
-**Tui đi hỏi bụt (google), lật mấy trang sách, để hiểu hơn sự kỳ diệu của những chương trình biên dịch code - compiler.**
+Mạnh dạn đi hỏi bụt (google): Compiler (máy biên dịch) hoạt động như thế nào? Lạc trong bụt một hồi thì tui cũng đến được đây nên mời mọi người đi cùng vào xem xem nhà máy Compiler nhé. 
 
 <center><img src="{{ site.url }}/assets/compiler-tour/compiler-hoat-dong-nhu-the-nao.png"></center>
 
