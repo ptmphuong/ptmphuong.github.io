@@ -5,11 +5,11 @@ date:   2021-08-01 19:35:00 -0700
 categories: cs-foundation
 ---
 
-Viết được 1 đoạn code lởm, nhắm mắt nhắm mũi bấm đại nút compile, thế là ra được 1 cái file .exe. <br>
-Tui hít hà hít hà... lấy hơi mạnh dạn double click chiếc file. Nín thở chờ đợi, mẹ ơi ai ngờ nó chạy thật. <br>
+Viết được 1 đoạn code lởm, nhắm mắt nhắm mũi bấm đại nút compile. Thế mà ra được 1 cái file .exe. <br>
+Tui hít hà hít hà... lấy hơi double click lên chiếc file. Mẹ ơi ai ngờ nó chạy thật. <br>
 Ngẩn ngơ tò te tui tự hỏi, code viết dở hơi thế kia mà làm sao vẫn chạy được? <br>
 
-Mạnh dạn đi hỏi bụt (google): Compiler (máy biên dịch) hoạt động như thế nào? Lạc trong bụt một hồi thì tui cũng đến được đây nên mời mọi người đi cùng vào xem xem nhà máy Compiler nhé. 
+Mạnh dạn đi hỏi bụt (google): Compiler (máy biên dịch) hoạt động như thế nào? Lạc trong bụt một hồi thì tui cũng đến được đây, nên mời mọi người đi cùng vào xem xem nhà máy Compiler nhé. 
 
 <center><img src="{{ site.url }}/assets/compiler-tour/compiler-hoat-dong-nhu-the-nao.png"></center>
 
