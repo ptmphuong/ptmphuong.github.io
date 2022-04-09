@@ -64,7 +64,7 @@ Ngoài ra họ cũng có thể hỏi mình về kinh nghiệm, các chi tiết t
 
 Sau mỗi buổi phỏng vấn từ phone screen đến final, mình đều có 5-10’ cuối buổi để hỏi về trải nghiệm của họ trong team và công ty.
 
-### __4. Offer__
+### __5. Offer__
 
 Tới bước này là thảo luận thủ tục, thù lao - thường được trả theo tiếng hoặc theo tuần, một số công ty có hỗ trợ chi phí nhà ở, di chuyển. Sau đó mình ký offer rẹt rẹt rồi đi ăn mừng thôi.
 
