@@ -2,7 +2,7 @@
 layout: post
 title:  "Chia sẻ kinh nghiệm tự học lập trình Python cho người mới bắt đầu"
 date:   2020-01-16 10:43:23 -0700
-categories: thoughts
+categories: kinh-nghiệm
 ---
 **6 tháng trước tui bỏ việc để học lập trình. Từng lạc lối giữa nguồn kiến thức bao la, giờ có ít lông ít cánh nên xin mạo muội chia sẻ một số kinh nghiệm mà giá như tui biết từ đầu.**
 
