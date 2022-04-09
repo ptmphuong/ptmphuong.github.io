@@ -47,20 +47,20 @@ Nên giải quyết ra sao?
 
 Đối với những câu hỏi khó, họ còn quan sát xem mình phản ứng ra sao trước một câu hỏi hóc búa - hoang mang sợ hãi, hay có thể giữ bình tĩnh để suy nghĩ và hợp tác với người phỏng vấn để giải quyết vấn đề. 
 
-Một lần phỏng vấn, anh lập trình viên cũng thử dạy cho tui một số kỹ năng mới, mục đích là để xem xem khả năng mình tiếp thu thông tin, kiến thức tới đâu.
+Một lần phỏng vấn, anh lập trình viên cũng thử dạy cho tui một số kỹ năng mới, mục đích là để xem xem khả năng tiếp thu thông tin, kiến thức tới đâu.
 
 ### __4. Final__
 
 Final lại kiểm tra leetcode như trên lần nữa, hoặc test kỹ năng mềm, hoặc cả hai.
 
-Đối với kỹ năng mềm, họ hỏi mình những câu hỏi tình huống như 
+**Bạn có kỳ vọng gì cho đợt thực tập này? (What do you look for in this internship?)** là câu hỏi lần nào phỏng vấn tui cũng gặp.
+
+Đối với kỹ năng mềm, họ hỏi những câu hỏi tình huống kiểu như: 
 * Kể về 1 lần bạn thất bại
 * Bạn học công nghệ mới bằng những cách nào?
 * Với mình, tại sao lại chọn chuyển ngành? 
 
-**Còn có câu này lần nào mình cũng đều được hỏi: Bạn có kỳ vọng gì cho đợt thực tập này? (What do you look for in this internship?)**
-
-Ngoài ra họ cũng có thể hỏi mình về kinh nghiệm, các chi tiết technical mà mình nêu trên resume. 
+Ngoài ra họ cũng hay hỏi thêm về kinh nghiệm, các chi tiết technical mà mình nêu trên resume. 
 
 Sau mỗi buổi phỏng vấn từ phone screen đến final, mình đều có 5-10’ cuối buổi để hỏi về trải nghiệm của họ trong team và công ty.
 
@@ -75,13 +75,13 @@ Tới bước này là thảo luận thủ tục, thù lao - thường được 
 
 Là intern/new grads chưa có nhiều kinh nghiệm, nên phần lớn quá trình tuyển dụng đều xoay quanh các câu hỏi leetcode để test cách tư duy của ứng viên.
 
-Tui là tui rất ngại leetcode. Thời gian đầu tui chỉ muốn lao đầu vào làm project, học các công nghệ mới. Nhưng phải công nhận luyện leetcode giúp tui rất nhiều trong việc rèn cấu trúc dữ liệu, thuật toán, viết code thơm tho sạch sẽ hơn. Xịn nhất là mình phát hiện mình cũng tiến bộ hơn về cách bẻ nhỏ, tiếp cận và giải quyết vấn đề.
+Tui là tui rất ngại leetcode. Thời gian đầu tui chỉ muốn lao đầu vào làm project, học các công nghệ mới. Nhưng phải công nhận luyện leetcode giúp tui rất nhiều trong việc rèn cấu trúc dữ liệu, thuật toán, viết code thơm tho sạch sẽ hơn. Xịn nhất là khi tui phát hiện ra mình cũng tiến bộ về cách tiếp cận và giải quyết vấn đề ra phết.
 
 Mọi thứ đều xoay quanh leetcode cũng là một kẽ hở của quy trình này. Trang leetcode có 1 kho câu hỏi, ai chăm giải leetcode nhiều thì có thể nhớ cách giải. Do đó nếu tuyển dụng chỉ dựa trên leetcode thì khó có thể test toàn diện được khả năng của ứng viên.
 
-### __Chuyển ngành có lợi thế__
+### __Chuyển ngành là một lợi thế lớn__
 
-Tui học lập trình gần đây thôi. Tuy chưa có kinh nghiệm thực tập làm software engineer lần nào, nhưng trước đây đã đi làm business được gần 5 năm. Vào đến vòng ứng xử, tui có rất nhiều câu chuyện liên quan đến chuyển ngành để chém, cụ thể là về những rào cản, khó khăn mà đã vượt qua. Đây là những điểm giúp tui dễ dàng nổi bật hơn những ứng viên khác. 
+Tui tuy chưa có kinh nghiệm làm software engineer intern nào cả, nhưng trước đây đã đi làm business được gần 5 năm. Vào đến vòng ứng xử, tui có rất nhiều câu chuyện liên quan đến chuyển ngành để chém, cụ thể là về những rào cản, khó khăn mà đã vượt qua. Đây là những điểm giúp tui dễ dàng nổi bật hơn những ứng viên khác. 
 
 Khi trả lời những câu hỏi tình huống, tui thấy tui thường bị vặn ít hơn khi kể về các tình huống ở lĩnh vực khác ngoài tech. Chắc là họ không rành nên cũng không hỏi sâu, tui đoán vậy.
 
@@ -93,7 +93,7 @@ Người phỏng vấn cũng là một yếu tố may mắn rất lớn. Lúc kh
 
 ## __Kinh nghiệm cá nhân__
 
-Tui chưa kinh nghiệm thực tập SWE nào, nên trên cv chỉ bao gồm những môn đã học trên trường, thêm project tự làm hoặc làm ở trên trường. Project của tui cũng chỉ gà gà, tầm nhỏ - trung bình nhỏ thôi. Trên trường, tui có một số hoạt động như làm trợ giảng, tham gia câu lạc bộ tui có thêm vào. Ngoài ra tui cũng điểm ra các kỹ năng liên quan, như làm analytics, hoặc landing page ở công việc cũ. 
+CV của tui khá giản đơn, chưa có kinh nghiệm gì nên chỉ bao gồm những môn đã học trên trường, thêm project tự làm hoặc làm ở trên trường. Project của tui cũng chỉ gà gà, tầm nhỏ - trung bình nhỏ thôi. Trên trường, tui có một số hoạt động như làm trợ giảng, tham gia câu lạc bộ tui có thêm vào. Ngoài ra tui cũng điểm ra các kỹ năng liên quan, như làm analytics, hoặc landing page ở công việc cũ. 
 
 Nay là cuối tháng 3, tui may mắn có chút thành tích gọi là nên note lại mấy dòng này, gọi là kết thúc quá trình 7 tháng tìm chỗ thực tập.
 
