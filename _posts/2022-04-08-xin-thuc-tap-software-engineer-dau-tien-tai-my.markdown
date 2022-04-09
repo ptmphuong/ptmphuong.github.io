@@ -5,9 +5,11 @@ date:   2022-04-08 22:14:00 -0700
 categories: kinh-nghiệm
 ---
 
-Hè 2021 là kỳ học cuối tui có thể học từ xa, tui tranh thủ khăn gói laptop vào vali và đi lòng vòng nước Mỹ. Cuối tháng 8 về lại trường, tui thẫn thờ thấy bạn bè xung quanh đã và đang miệt mài luyện leetcode, chuẩn bị phỏng vấn, mua vé dự career fair, … Rồi đứa em nó nhắn, chị phải chuẩn bị cv liền đi, các công ty học đang đăng tuyển cho hè năm sau rồi đấy. Thế là tui, tháng 9/2021, trong tâm trạng hoang mang, vắt chân lên cổ tham gia cuộc đua tìm internship cho mùa hè 2022.
+Hè 2021 là kỳ học cuối tui có thể học từ xa, tui tranh thủ khăn gói laptop vào vali và đi lòng vòng nước Mỹ. Cuối tháng 8 về lại trường, tui thẫn thờ thấy bạn bè xung quanh đã và đang miệt mài luyện leetcode, chuẩn bị phỏng vấn, mua vé dự career fair, … Rồi đứa em nó nhắn: chị phải chuẩn bị cv liền đi, các công ty học đang đăng tuyển cho hè năm sau rồi đấy. 
 
-## __Sao phải bắt đầu apply sớm thế?__
+Thế là tui, tháng 9/2021, trong tâm trạng hoang mang, vắt chân lên cổ tham gia cuộc đua tìm internship cho mùa hè 2022.
+
+## __Sao phải bắt đầu nộp sớm thế?__
 
 Tháng 8, 9 là thời điểm sớm nhất cho các công ty bắt đầu mở nhận hồ sơ cho mùa hè năm sau, dù cũng vẫn có một số công ty bắt đầu trễ hơn - vào tháng 11, 12. Thực tập mùa hè thường bắt đầu vào tháng 6, như vậy là cũng sớm hơn đến cả nửa năm. Họ bắt đầu sớm như vậy vì một số lý do sau:
 * Quá trình phỏng vấn gồm nhiều giai đoạn, tốn nhiều thời gian. Những công ty lớn tuyển nhiều thì càng tốn nhiều thời gian hơn.
@@ -18,13 +20,19 @@ Tháng 8, 9 là thời điểm sớm nhất cho các công ty bắt đầu mở 
 Dưới đây là các bước chung cho giai đoạn phỏng vấn. Các vòng được cắt bớt, hoặc chèn thêm, tùy vào từng công ty.
 
 ### 1. Nộp resume
-Tui nhớ khoảng tháng 9 đến 11 là mùa tuyển dụng cao điểm cho mùa hè năm sau., các công ty nô nức trẩy hội đăng tuyển đăng tuyển trên các trang tuyển dụng như LinkedIn, Handshake, .. và cả trang nghề nghiệp của các trường. Một số công ty lớn có tổ tổ chức thực tập quanh năm (thu, xuân) thì sẽ đăng khoảng trước 6 tháng trước cho mùa làm việc đó..
+Tui nhớ khoảng tháng 9 đến 11 là mùa tuyển dụng cao điểm cho mùa hè năm sau., các công ty nô nức trẩy hội đăng tuyển đăng tuyển trên các trang tuyển dụng như [LinkedIn][linkedin.com], [Handshake][handshake.com], .. và cả trang nghề nghiệp của các trường. Một số công ty lớn có tổ tổ chức thực tập quanh năm (thu, xuân) thì sẽ đăng khoảng trước 6 tháng trước cho mùa làm việc đó..
+
+[linkedin.com]: https://www.linkedin.com/
+[handshake.com]: https://joinhandshake.com/
 
 ### 2. Online Assessment
-Nếu hồ sơ được lọt qua vòng đầu, bạn sẽ được gọi làm bài test online, mọi người hay gọi tắt là OA. Ở vòng này, mình được gửi link dẫn đến các trang làm bài test (như Codesignal, Hackerrank, …) và làm tầm 2~4 câu hỏi dạng leetcode, trong vòng 60~120 phút.
+Nếu hồ sơ được lọt qua vòng đầu, bạn sẽ được gọi làm bài test online, mọi người hay gọi tắt là OA. Ở vòng này, mình được gửi link dẫn đến các trang làm bài test (như [Codesignal][codesignal.com], [Hackerrank][hackerrank.com], …) và làm tầm 2~4 câu hỏi dạng leetcode, trong vòng 60~120 phút.
 
-#### Câu hỏi dạng leetcode là dạng như thế nào?
-Đây là những đố ngắn, được sử dụng để kiểm tra tư duy và kiến thức lập trình cơ bản.
+[codesignal.com]: https://codesignal.com/
+[hackerrank.com]: https://www.hackerrank.com/
+
+#### Câu hỏi dạng leetcode là gì?
+Đây là những câu đố ngắn, thường được sử dụng để kiểm tra tư duy và kiến thức lập trình căn bản.
 
 | Ví dụ: |
 | ------ |
@@ -32,18 +40,22 @@ Nếu hồ sơ được lọt qua vòng đầu, bạn sẽ được gọi làm b
 
  Câu trả lời là `‘v’`.
 
-Cái chính ở đây là mình phải code cách giải cách tối ưu (time and space complexity), đáp ứng cho mọi trường hợp - như ở đây thì mình phải bao gồm cả trường hợp có ký tự viết hoa viết thường lẫn lộn - `“aBCvEE”` chẳng hạn. Đây chỉ là một ví dụ đơn giản. Với các vấn khó hơn, như graph, dynamic programing vân vân, thì mình phải biết áp dụng các cách giải đã được chứng minh, hay thuật toán (algorithms) để giải quyết.
+Cái chính ở đây là mình phải code cách giải cách tối ưu (time and space complexity), đáp ứng cho mọi trường hợp - như ở đây thì mình phải bao gồm cả trường hợp có ký tự viết hoa viết thường lẫn lộn - `“aBCvEE”` chẳng hạn. 
+
+Đây chỉ là một ví dụ đơn giản. Với các vấn khó hơn, như graph, dynamic programing vân vân, thì mình phải biết áp dụng các cách giải đã được chứng minh, hay thuật toán (algorithms) để giải quyết.
 
 ### 3. Phone screen
-Vòng này cũng vẫn là leetcode, nhưng mình làm cùng với 1 nhân viên lập trình của công ty, và các câu hỏi có thể sẽ mờ ảo hơn. Ngoài việc giải, mình còn phải thể hiện cách tiếp cận với những vấn đề chưa rõ ràng, cách trình bày vấn đề, tư duy giải quyết cho người phỏng vấn. 
+Vòng này cũng vẫn là leetcode, nhưng mình share màn hình và làm cùng với 1 nhân viên lập trình của công ty. Các câu hỏi ở vòng này có thể sẽ mờ ảo hơn. Ngoài việc giải, mình còn phải thể hiện cách tiếp cận với những vấn đề chưa rõ ràng, cách trình bày vấn đề, tư duy giải quyết cho người phỏng vấn. 
 
-Cũng với câu hỏi trên: tìm ký tự đầu tiên không tuân thủ trình tự của bảng chữ cái cho 1 word bất kỳ. Thì mình phải cân nhắc các trường hợp ngoại lệ như:
-* `word = “abcv”` 	thuận bảng chữ cái cả 1 dòng
-* `word = “r1?a”` 	có số/symbol
-* `word = “”` 		chẳng có ký tự nào 
+| Cũng với câu hỏi trên |
+| ------ |
+| Tìm ký tự đầu tiên không tuân thủ trình tự của bảng chữ cái cho 1 word **bất kỳ**. |
+
+Thì mình phải cân nhắc đủ các trường hợp ngoại lệ, và đề xuất cách giải quyết:
+* `word = “abcv”` mọi ký tự đèu	thuận bảng chữ cái
+* `word = “r1?a”` trường hợp có số/symbol
+* `word = “”` 		  trường hợp vườn không nhà trống
 * …
-
-Nên giải quyết ra sao?
 
 Đối với những câu hỏi khó, họ còn quan sát xem mình phản ứng ra sao trước một câu hỏi hóc búa - hoang mang sợ hãi, hay có thể giữ bình tĩnh để suy nghĩ và hợp tác với người phỏng vấn để giải quyết vấn đề. 
 
@@ -97,10 +109,13 @@ CV của tui khá giản đơn, chưa có kinh nghiệm gì nên chỉ bao gồm
 
 Nay là cuối tháng 3, tui may mắn có chút thành tích gọi là nên note lại mấy dòng này, gọi là kết thúc quá trình 7 tháng tìm chỗ thực tập.
 
-* 7 tháng - tui nộp 235 bộ hồ sơ.
-* 10 chỗ gọi làm OA, còn lại là vô vàn mail “chúng tôi rất tiếc”
-* 5 chỗ tui được tiến đến vòng phỏng vấn phone
-* 3 final và cũng may mắn đến được 3 offer -  tui rớt giọt nước mắt khi nhận được.
+| Đơn nộp | Làm OA | Phone | Final | Offer |
+| ------- | ------ | ----- | ----- | ----- |
+| 235 | 10 | 5 | 3 | 3 |
+
+Đơn nộp nhiều, nên cứ vài ba ngày là tui lại nhận mail "we decide to move forward with other candidates".
+
+Những lúc làm xong OA, hay phỏng vấn thì cứ thấp thỏm chờ đợi mail, nếu là mail từ chối thì càng buồn gấp bội. 7 tháng trôi qua rất chậm, nhưng tình hình chung là vậy, nên mình cứ phải cố gắng thôi.
 
 Có 1 [trang][2022-summer-intern-process-tracking] này thu thập tiến độ của nhiều người, nhưng tham khảo xem cho vui thôi vì tui cảm giác là các bạn được tiến xa hơn thì hay chăm chỉ vào điền mấy cái form này hơn.
 
@@ -110,6 +125,6 @@ Có 1 [trang][2022-summer-intern-process-tracking] này thu thập tiến độ 
 
 ## __Kết__
 
-Có bạn bảo: *Hình như tech là ngành duy nhất yêu cầu bạn phải có đam mê mới theo đuổi được*. Nhưng tui hoàn toàn không đồng tình. Ngành nào cũng cần đam mê và tận tụy để theo đuổi và thành công hết. Nhưng có 1 điều không thể phủ nhận được là tech là một trong những ngành cạnh tranh nhất trên thị trường hiện nay. Các bạn mới bắt đầu, và bắc ngang như mình phải cần cù chịu khó thật nhiều, thì mới bước chân được vào cánh cửa. Nên mình phải cố lên thôi, cố cho đến ngày mình làm được, cho đến ngày yếu tố may mắn nháy mắt với mình *blink blink*
+Có bạn bảo: *Hình như tech là ngành duy nhất yêu cầu bạn phải có đam mê mới theo đuổi được*. Nhưng tui hoàn toàn không đồng tình. Ngành nào cũng cần đam mê và tận tụy để theo đuổi và thành công hết. Nhưng có 1 điều không thể phủ nhận được là tech là một trong những ngành cạnh tranh nhất trên thị trường hiện nay. Các bạn mới bắt đầu, và bắc ngang như mình phải cần cù chịu khó thật nhiều, thì mới bước chân được vào cánh cửa. Nên mình phải cố lên thôi, cố cho đến ngày mình làm được, cho đến ngày yếu tố may mắn nháy mắt với mình *\*blink blink\**
 
 <center><img src="{{ site.url }}/assets/first-internship-app/welcome-aboard-noogler.png"></center>
