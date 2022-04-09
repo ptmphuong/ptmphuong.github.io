@@ -2,7 +2,7 @@
 layout: post
 title:  "Kể chuyện đi Green Island - Du lịch Đài Loan không chỉ có đất liền"
 date:   2020-01-30 09:31:00 -0700
-categories: travel
+categories: du-lịch
 ---
 
 **Đây là một câu chuyện có thật.**
