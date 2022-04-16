@@ -24,7 +24,7 @@ email: ptmphuong9@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog chia sẻ kinh nghiệm học lập trình cho người học trái ngành.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: ptmphuong9
 github: ptmphuong
 linkedin: ptmphuong
