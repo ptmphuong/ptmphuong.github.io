@@ -82,9 +82,9 @@ mutual_grandchildren(GrandParent1, GrandParent2, GrandChild) :-
 
 ## __2. Prolog là gì?__
 
-Khoảng những năm 60s 70s, khi chủ đề toán logic đang nóng hừng hực trong lĩnh vực toán học, các bác nghiên cứu tin rằng trí tuệ nhân tạo có thể tạo ra dựa trên một cơ sở kiến thức lớn và kết nối chúng bằng logic(\*). Nhà nhà quan tâm và nghiên cứu chủ đề này, thế là đến năm 1972, Prolog chính thức ra đời, viết tắt cho programmation en logique (lập trình logic).
+Khoảng những năm 60s 70s, khi chủ đề toán logic đang nóng hừng hực trong lĩnh vực toán học, các bác nghiên cứu tin rằng trí tuệ nhân tạo có thể tạo ra dựa trên một cơ sở kiến thức lớn và kết nối chúng bằng logic (<span style="color:blue">*</span>). Nhà nhà quan tâm và nghiên cứu chủ đề này, thế là đến năm 1972, Prolog chính thức ra đời, viết tắt cho programmation en logique (lập trình logic).
 
-(\*) *Đúng nhưng chưa đủ. Đến các năm 80 90 thì các bác bảo cần phải có số nữa. Ngày nay học ML/AI thì tất nhiên là phải học thêm rất nhiều xác suất thống kê.*
+(<span style="color:blue">*</span>) *Đúng nhưng chưa đủ. Đến các năm 80 90 thì các bác bảo cần phải có số nữa. Ngày nay học ML/AI thì tất nhiên là phải học thêm rất nhiều xác suất thống kê.*
 
 Code với Prolog, mình không cần định nghĩa một vấn đề cần giải bằng những bước nào, function không tồn tại trong thế giới Prolog. Ngược lại, mình chỉ cần khai báo ra đầy đủ **facts** và **rules**, còn lại để Prolog lo. Prolog dĩ nhiên vì vậy mà thuộc vào nhóm **Lập Trình Khai Báo - Declarative Paradigm**.
 
