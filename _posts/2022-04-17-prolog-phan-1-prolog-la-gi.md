@@ -12,16 +12,16 @@ Chuỗi bài giới thiệu về Prolog sẽ bao gồm 2 phần:
 Tui sẽ viết liền tù tì cả 2 phần trong bài viết này. Cả bài viết sẽ dài hơn các bài bình thường nên bạn có thể chia thời gian ra đọc theo dàn bài dưới đây. Trong bài viết này, tui sẽ không dạy bạn cách code bằng Prolog; nhưng nếu bạn đang bắt đầu học Prolog, thì thông tin ở đây sẽ vô cùng hữu ích để bạn hiểu và học nhanh hơn. Nếu bạn không có ý định học, thì 2 phần này sẽ cho bạn biết mùi vị của Prolog là như thế nào.
 
 Phần A:
-1. Khởi động
-2. Prolog là gì?
-3. Prolog tìm kiếm câu trả lời bằng cách nào?
+* Khởi động
+* Prolog là gì?
+* Prolog tìm kiếm câu trả lời bằng cách nào?
     * Prolog backtracking
 
 Phần B:
-4. State transitions
-5. List and tail recursion
-6. Prolog vs SQL
-7. Ứng dụng của Prolog
+* State transitions
+* List and tail recursion
+* Prolog vs SQL
+* Ứng dụng của Prolog
 
 ------------------
 
