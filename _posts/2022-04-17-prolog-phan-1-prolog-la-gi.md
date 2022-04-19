@@ -25,11 +25,11 @@ Phần B:
 
 ------------------
 
-# _Phần A_
+# __Phần A__
 
 ## __1. Khởi động__
 
-Đầu tiên, mình khởi động với một câu đố nhỏ:
+Mình khởi động với một câu đố nhỏ:
 
 Tui có cây phả hệ của nhà Nobita như sau:
 
@@ -43,7 +43,7 @@ Nếu phải code, bạn sẽ giải 2 câu này và những câu tương tự v
 
 Nếu là tui của 6 tháng trước đây - công dân OOP Java gương mẫu miệt mài Leetcode, có lẽ tui sẽ nhồi thông tin trên vào các class rồi xào xào ra mấy cái tree/graph traversal functions để dùng. Tui ngày hôm nay đã gia nhập được thêm một vài công cụ và ngôn ngữ mới, thì thấy đích thị là 1 vấn đề được sinh ra để dành cho Prolog - bà  trùm trong nhóm ngôn ngữ lập trình logic. 
 
-Mình dùng Prolog để thử giải nhé, bạn sẽ thấy giải bằng Prolog dễ và ngắn gọn đến mức ngỡ ngàng.
+Để tui dùng Prolog giải nhé. Bạn sẽ thấy giải bằng Prolog dễ và ngắn gọn đến mức ngỡ ngàng.
 
 2 câu hỏi đưa ra đều liên quan đến mối quan hệ *Grandparent - Grandchild*. Để trả lời, mình cần nối các mối quan hệ *Parent - Child* được cho sẵn. Mình chỉ cần liệt kê ra các thông tin này ra, trong Prolog gọi là **Facts**: 
 
@@ -114,7 +114,7 @@ Câu trả lời có thể ở dạng:
 
 ## Backtracking trong Prolog
 
-Ai từng bị leetcode ám ảnh như tui, mỗi lần thấy chữ backtracking trồi lên là lại nhăn trán nhăn mày. Tui từng bị ám ảnh đến độ đi ngủ còn mơ thấy mình nhảy lò cò từ node này qua node nọ trên graph. Nhưng từ khi quen dần với Prolog, khái niệm backtracking với tui nhẹ nhàng hơn hẳn.
+Ai từng bị leetcode ám ảnh như tui, mỗi lần thấy chữ backtracking trồi lên là lại nhăn trán nhăn mày. Tui bị ám ảnh đến nỗi đi ngủ mơ thấy mình nhảy lò cò từ node này qua node nọ trên graph. Nhưng từ khi quen dần với Prolog, khái niệm backtracking với tui nhẹ nhàng hơn hẳn.
 
 Câu hỏi mang từ quầy Question vào, Prolog sẽ gọi là **Goal**. Từ Goal, Prolog sẽ tìm cách truy ngược từ goal -> facts trong Knowledge Base để tìm ra sự thật. Nếu có nhiều câu trả lời, Prolog sẽ sử dụng **Union** (phép hợp nhất) và chỉ trả lại tập trả lời đạt yêu cầu. 
 
@@ -124,7 +124,7 @@ Nếu Rule này chỉ đến Rule kia thì Prolog sẽ tiếp tục đi ngược
 
 <center><img src="{{ site.url }}/assets/prolog-intro/prolog-backtracking-2.png"></center>
 
-Trường hợp goal có liên quan đến Recursion, thì Prolog sẽ truy ra đến Base Cases. Nếu không định nghĩa recursive chính xác thì xác định ăn timeout hoặc stack overflow. Tui sẽ nói nhiều hơn về recursion trong Prolog ở phần 2 khi mình XOAY. 
+Trường hợp goal có liên quan đến Recursion, thì Prolog sẽ truy ra đến Base Cases. Nếu không định nghĩa recursive chính xác thì xác định ăn timeout hoặc stack overflow. Tui sẽ nói nhiều hơn về recursion trong Prolog ở phần B khi mình XOAY. 
 
 Zoom kỹ hơn vào chỗ này trong hình cách hoạt động của Prolog: 
 
@@ -132,8 +132,19 @@ Zoom kỹ hơn vào chỗ này trong hình cách hoạt động của Prolog:
 
 Từ đây, bạn có thể đoán tại sao dùng Prolog để trả lời câu đố khởi động dễ dàng đến như vậy không? 
 
-Nếu sử dụng một ngôn ngữ imperative như Java, Python, Rust, mình sẽ phải tự code ra một thuật toán backtracking nào đó - tree dfs/bfs để sử dụng. Prolog rất tiện ở một chỗ là: bản thân Prolog là cả một bộ máy backtracking đã được tối ưu. Muốn sử dụng, mình chỉ cần cho facts và rules vào là prolog chạy ra kết quả. Do đó, trong những trường hợp có nhiều dữ kiện và quy tắc cần sử dụng backtracking, Prolog là một ứng viên sáng giá. 1 lần gần đây nhất tui tự tìm đến Prolog là để giải wordle. 
+Nếu sử dụng một ngôn ngữ imperative như Java, Python, Rust, mình sẽ phải tự code ra một thuật toán backtracking nào đó - tree dfs/bfs để sử dụng. Prolog rất tiện ở một chỗ là: bản thân Prolog là cả một bộ máy backtracking đã được tối ưu. Muốn sử dụng, mình chỉ cần cho facts và rules vào để Prolog chạy ra kết quả. Do đó, trong những trường hợp có nhiều dữ kiện và quy tắc cần sử dụng backtracking, Prolog là một ứng viên sáng giá. 1 lần gần đây nhất tui tự tìm đến Prolog là để giải wordle. 
+
+Ok, thế là mình đã làm quen sơ với Prolog. Trông cũng có vẻ hiền lành Cho đến khi bạn phát hiện ra: Prolog không có function, không có return statement, và cũng không có for/while loop. Vậy làm thế nào để Prolog scale trong 1 code base lớn? Làm thế nào để xử lý list, pass thông tin giữa các rule?
+
+# __Phần B__
+
+## __State Transitions__ 
+
+Khi cuộc sống không có return statement. 
+
+
  
+... 
 Ngoài ra, Có một câu hỏi tui thắc mắc trong thời gian mới làm quen với Prolog: Nếu cũng là ngôn ngữ truy vấn, thì Prolog với SQL khác nhau chỗ nào? 
 
 ## __4. Prolog vs SQL__
