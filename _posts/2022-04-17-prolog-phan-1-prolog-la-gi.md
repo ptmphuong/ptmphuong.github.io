@@ -5,33 +5,41 @@ date:   2022-04-17 17:50:00 -0700
 categories: programming-languages
 ---
 
-Chuỗi bài giới thiệu về Prolog sẽ bao gồm 2 bài viết. Ở 2 bài viết này, tui sẽ không dạy bạn Prolog, nhưng nếu bạn đang bắt đầu học Prolog, thì thông tin ở đây sẽ vô cùng hữu ích để bạn hiểu và học nhanh hơn. Nếu bạn không có ý định học, thì tui sẽ cho bạn biết mùi vị của Prolog là như thế nào.
+Chuỗi bài giới thiệu về Prolog sẽ bao gồm 2 phần: 
+* __A. Prolog là gì? Prolog hoạt động như thế nào?__
+* __B. State transition, list and recursions in Prolog.__
 
-Phần 1:
+Tui sẽ viết liền tù tì cả 2 phần trong bài viết này. Cả bài viết sẽ dài hơn các bài bình thường nên bạn có thể chia thời gian ra đọc theo dàn bài dưới đây. Trong bài viết này, tui sẽ không dạy bạn cách code bằng Prolog; nhưng nếu bạn đang bắt đầu học Prolog, thì thông tin ở đây sẽ vô cùng hữu ích để bạn hiểu và học nhanh hơn. Nếu bạn không có ý định học, thì 2 phần này sẽ cho bạn biết mùi vị của Prolog là như thế nào.
+
+Phần A:
 1. Khởi động
 2. Prolog là gì?
 3. Prolog tìm kiếm câu trả lời bằng cách nào?
-4. Prolog vs. SQL
+    * Prolog backtracking
+
+Phần B:
+4. State transitions
+5. List and tail recursion
+6. Prolog vs SQL
+7. Ứng dụng của Prolog
 
 ------------------
+
+# _Phần A_
 
 ## __1. Khởi động__
 
 Đầu tiên, mình khởi động với một câu đố nhỏ:
 
-Tui có một số thông tin về gia đình ông Homer sau:
-* Ông Nobi và bà Nobi có 2 người con: chú Nobirou và chú Nobisuke.
-* Ông Kataoka và bà Katao có 2 người: cô Tamako và chú Tamao.
-* Nobirou có 1 người con là chú Akiyo
-* Chú Nobisuke lấy cô Tamako và có 3 đứa con trai: Nobita, và Tôm và Tép.
+Tui có cây phả hệ của nhà Nobita như sau:
+
+<center><img src="{{ site.url }}/assets/prolog-intro/prolog-puzzle-family-tree.png"></center>
 
 Hỏi:
 * Ông Kataoka có đứa cháu ruột nào tên Akiyo không?
 * Bà Kataoka và bà Nobi có cùng những đứa cháu nào?
 
-Nếu phải code, bạn sẽ chọn ngôn ngữ lập trình nào và chọn giải câu này bằng cách nào?
-
-<center><img src="{{ site.url }}/assets/prolog-intro/prolog-puzzle-family-tree.png"></center>
+Nếu phải code, bạn sẽ giải 2 câu này và những câu tương tự về mối quan hệ trong gia đình bằng cách nào? Bạn sẽ chọn ngôn ngữ lập trình nào để code?
 
 Nếu là tui của 6 tháng trước đây - công dân OOP Java gương mẫu miệt mài Leetcode, có lẽ tui sẽ nhồi thông tin trên vào các class rồi xào xào ra mấy cái tree/graph traversal functions để dùng. Tui ngày hôm nay đã gia nhập được thêm một vài công cụ và ngôn ngữ mới, thì thấy đích thị là 1 vấn đề được sinh ra để dành cho Prolog - bà  trùm trong nhóm ngôn ngữ lập trình logic. 
 
@@ -68,7 +76,7 @@ Rule `grandparent_grandchild/2` có 2 variables chính là `GrandParent`, `Grand
 
 <center><img src="{{ site.url }}/assets/prolog-intro/prolog-puzzle-family-tree-a1.png"></center>
 
-**Bà Kataoka và bà Nobi có cùng những đứa cháu nào?** Mình lại viết thêm 1 cái rule nữa, vận dụng `grandparent_grandchild/2` đã viết ở trên. Do tìm 2 bà chung 1 cháu, nên tui dùng variable `GrandChild` để bắc cầu.
+Để trả lời câu tiếp theo: **Bà Kataoka và bà Nobi có cùng những đứa cháu nào?** Mình lại viết thêm 1 cái rule nữa, vận dụng `grandparent_grandchild/2` đã viết ở trên. Do tìm 2 bà chung 1 cháu, nên tui dùng variable `GrandChild` để bắc cầu.
 
 ```prolog
 mutual_grandchildren(GrandParent1, GrandParent2, GrandChild) :-
@@ -88,7 +96,9 @@ Khoảng những năm 60s 70s, khi chủ đề toán logic đang nóng hừng h�
 
 Code với Prolog, mình không cần định nghĩa một vấn đề cần giải bằng những bước nào, function không tồn tại trong thế giới Prolog. Ngược lại, mình chỉ cần khai báo ra đầy đủ **facts** và **rules**, còn lại để Prolog lo. Prolog dĩ nhiên vì vậy mà thuộc vào nhóm **Lập Trình Khai Báo - Declarative Paradigm**.
 
-Cũng tiện note thêm, Prolog coi các từ có chữ đầu viết thường: *june*, *marge*, …  là **atom**. Atoms tựa như là literals vậy - giá trị mà nó thể hiện chính nó. Còn những từ có chữ đầu viết hoa: *Parent*, *GrandParent*, …  là **variables** - tham số.
+Cũng tiện note thêm, trong Prolog:
+* Các từ có chữ đầu viết thường: *june*, *marge*, …  là **atom**. Atoms tựa như là literals vậy - giá trị mà nó thể hiện chính nó. 
+* Các từ có chữ đầu viết hoa: *Parent*, *GrandParent*, …  là **variables** - tham số.
 
 ## __3. Prolog tìm kiếm câu trả lời bằng cách nào?__
 
@@ -140,9 +150,9 @@ Cả 2 ngôn ngữ đều là Turing Complete, nghĩa là bất cứ vấn đề
 
 ----------------------
 
-## __Kết__
+## __Tạm kết__
 
-Ok, thế là mình đã làm quen sơ với Prolog. Trông cũng có vẻ hiền lành Cho đến khi bạn phát hiện ra: Prolog không có function, không có return statement, và cũng không có for/while loop. Vậy làm thế nào để Prolog scale trong 1 code base lớn? Làm thế nào để xử lý list, pass thông tin giữa các rule? Mời quý vị đón xem tập tiếp theo. **Xoay, Xoay lộn, Xoay lộn tùng phèo với Prolog**. 
+Ok, thế là mình đã làm quen sơ với Prolog. Trông cũng có vẻ hiền lành Cho đến khi bạn phát hiện ra: Prolog không có function, không có return statement, và cũng không có for/while loop. Vậy làm thế nào để Prolog scale trong 1 code base lớn? Làm thế nào để xử lý list, pass thông tin giữa các rule? Chờ xíu. Tui đang viết phần B. 
 
 
 
