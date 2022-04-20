@@ -61,7 +61,7 @@ parent_child(tamako, nobita).
 
 [nobita-family-tree-full]: https://github.com/ptmphuong/tuihoccode_demo_code/blob/main/prolog/intro/nobita_family_tree.pl
 
-Để trả lời câu đầu: **Ông Kataoka có đứa cháu ruột nào tên Tôm không?**
+Để trả lời câu đầu: *Ông Kataoka có đứa cháu ruột nào tên Tôm không?*
 
 Mình định nghĩa **Rule** sau để miêu tả mối quan hệ giữa Grandparent, Parent và Child:
 
@@ -77,7 +77,11 @@ Rule `grandparent_grandchild/2` có 2 variables chính là `GrandParent`, `Grand
 
 <center><img src="{{ site.url }}/assets/prolog-intro/prolog-puzzle-family-tree-a1.png"></center>
 
-Để trả lời câu tiếp theo: **Bà Kataoka và bà Nobi có cùng những đứa cháu nào?** Mình lại viết thêm 1 cái rule nữa, vận dụng `grandparent_grandchild/2` đã viết ở trên. Do tìm 2 bà chung 1 cháu, nên tui dùng variable `GrandChild` để bắc cầu.
+Tiện tui cũng thử truy vấn xem *Ông Kataoka có những đứa cháu ruột nào?*
+
+<center><img src="{{ site.url }}/assets/prolog-intro/prolog-puzzle-family-tree-a1-1.png"></center>
+
+Để trả lời câu tiếp theo: *Bà Kataoka và bà Nobi có cùng những đứa cháu nào?* Mình lại viết thêm 1 cái rule nữa, vận dụng `grandparent_grandchild/2` đã viết ở trên. Do tìm 2 bà chung 1 cháu, nên tui dùng variable `GrandChild` để bắc cầu.
 
 ```prolog
 mutual_grandchildren(GrandParent1, GrandParent2, GrandChild) :-
@@ -93,7 +97,7 @@ mutual_grandchildren(GrandParent1, GrandParent2, GrandChild) :-
 
 Khoảng những năm 60s 70s, khi chủ đề toán logic đang nóng hừng hực trong lĩnh vực toán học, các bác nghiên cứu tin rằng trí tuệ nhân tạo có thể tạo ra dựa trên một cơ sở kiến thức lớn và kết nối chúng bằng logic (<span style="color:blue">*</span>). Nhà nhà quan tâm và nghiên cứu chủ đề này, thế là đến năm 1972, Prolog chính thức ra đời, viết tắt cho programmation en logique (lập trình logic).
 
-(<span style="color:blue">*</span>) *Đúng nhưng chưa đủ. Đến các năm 80 90 thì các bác bảo cần phải có số nữa. Ngày nay học ML/AI thì tất nhiên là phải học thêm rất nhiều xác suất thống kê.*
+(<span style="color:blue">*</span>) Đúng nhưng chưa đủ. Đến các năm 80 90 thì các bác bảo cần phải có số nữa. Ngày nay học ML/AI thì tất nhiên là phải học thêm rất nhiều xác suất thống kê.*
 
 Code với Prolog, mình không cần định nghĩa một vấn đề cần giải bằng những bước nào, function không tồn tại trong thế giới Prolog. Ngược lại, mình chỉ cần khai báo ra đầy đủ **facts** và **rules**, còn lại để Prolog lo. Prolog dĩ nhiên vì vậy mà thuộc vào nhóm **Lập Trình Khai Báo - Declarative Paradigm**.
 
