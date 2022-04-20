@@ -117,7 +117,7 @@ Câu trả lời có thể ở dạng:
 
 ## Backtracking trong Prolog
 
-Ai từng bị leetcode ám ảnh như tui, mỗi lần thấy chữ backtracking trồi lên là lại nhăn trán nhăn mày. Tui bị ám ảnh đến nỗi đi ngủ mơ thấy mình nhảy lò cò từ node này qua node nọ trên graph. Nhưng từ khi quen dần với Prolog, khái niệm backtracking với tui nhẹ nhàng hơn hẳn.
+Ai từng bị leetcode ám ảnh như tui, mỗi lần thấy chữ backtracking trồi lên là lại nhăn trán nhăn mày. Tui bị ám ảnh đến nỗi đi ngủ mơ thấy mình nhảy lò cò từ node này qua node nọ trên graph. Nhưng từ khi quen dần với Prolog, khái niệm backtracking với tui nhẹ nhàng hơn hẳn, làm nhiều riết quen.
 
 Câu hỏi mang từ quầy Question vào, Prolog sẽ gọi là **Goal**. Từ Goal, Prolog sẽ tìm cách truy ngược từ goal -> facts trong Knowledge Base để tìm ra sự thật. Nếu có nhiều câu trả lời, Prolog sẽ sử dụng **Union** (phép hợp nhất) và chỉ trả lại tập trả lời đạt yêu cầu. 
 
@@ -171,9 +171,9 @@ grandparent_grandchild(GrandParent, GrandChild, Parent) :-
 
 Và truy vấn lại như sau: 
 * `grandparent_grandchild(mrKaotaoKa, tom, Parent)`   => `tamako`
-* `grandparent_grandchild(mrKaotaoKa, akiyo, Parent)` => `false`
 
 Trường hợp không tìm được Parent nào cả, Prolog sẽ chỉ trả lời `false`.
+* `grandparent_grandchild(mrKaotaoKa, akiyo, Parent)` => `false`
 
 Nhìn khái quát hơn, Variable có thể được pass ngay trong body của Rule, và tạo thành một chuỗi chuyển đổi trạng thái (a sequence of state transitions).
 
@@ -185,10 +185,10 @@ program_optimized(Prog0, Prog) :-
 ```
 
 Một ví dụ khác tóm tắt một quy trình tối ưu. Prog0 là chương trình ở trạng thái bạn đầu. Prog0 sẽ chạy qua 3 passes:
-* pass_1 biến Prog0 thành Prog1
-* pass_2 biến Prog 1 thành Prog2
-* Và cuối cùng pass_3 biến Prog 2 thành thành phẩm Prog
-* Prog được thêm vào trong Variable program_optimized để có thể truy vấn và trả về.
+* `optimization_pass_1` biến Prog0 thành Prog1
+* `optimization_pass_2` biến Prog1 thành Prog2
+* `optimization_pass_3` biến Prog2 thành thành phẩm Prog
+* thành phẩm Prog được thêm vào trong Variable program_optimized để có thể truy vấn và trả về.
 
 ## __List iteration__ 
  
@@ -217,14 +217,16 @@ Thừa dễ xông lên, **reverse a list** làm thế nào?
 Tương tự với cách sử dụng pattern matching ở trên, mình có thể viết Rule để xoay ngược list như sau
 ```prolog
 % Base case: Reverse of an empty list or a list of 1 element is itself.
-reverse( [] , [] ) .  
+reverse( []  , []  ) .  
 reverse( [X] , [X] ) .  
 
 % Recursive case,  a list of length >= 1:
-reverse([X|Xs], Reversed) :- 
-  reverse(Xs, T),                % - recursive call - reverse the tail (DFS)
-  append( T , [X] , Reversed)    % - append the head to the reversed tail.
+reverse( [ OriginHead | OriginTail ] , Reversed ) :- 
+  reverse( OriginTail, Tail ) ,                % - recursive call - reverse the tail (DFS)
+  append( Tail, [OriginHead], Reversed ).      % - Tail + [OriginHead] = Reversed
 ```
+Đoạn này khi mới học tui cũng lùng bùng lắm. Không có return statement, nên mình cũng phải viết thêm ra Variable để pass giữa các logic.
+
 Kết quả:
 * `reverse([1, 2, 3], Reversed)` => `Reversed = [3, 2, 1]`
 
@@ -250,6 +252,7 @@ Khi gọi recursive calls, mình iterate qua list, vừa đi vừa tích lũy th
 | []            | [4,3,2,1]   | []            |
 
 Cho đến khi Original List đã được chiết ra hết, Accumulator hiện đang chứa list đã được xoay ngược như mong muốn. Nên mình bưng nó qua Reversed List.
+| Original List | Accumulator | Reversed List |
 | []            | [4,3,2,1]   | [4,3,2,1]     |
 
 Viết thành code như sau:
@@ -259,11 +262,12 @@ Viết thành code như sau:
 % our accumulator has already accumulated all elements, andand contains the reversed list we want.
 reverse_acc([] , Reversed, Reversed).
 
-reverse_acc([Head|Tail] , Accumulator , Reversed) :-     % if the list is non-empty, we reverse the list
-   reverse_acc(Tail, [Head|Accumulator] , Reversed).     % by recursion down with the head of the list prepen
-   ded to the accumulator
+% if the list is non-empty, we reverse the list
+% by recursion down with the head of the list prepended to the accumulator
+reverse_acc([Head|Tail] , Accumulator , Reversed) :-     
+   reverse_acc(Tail, [Head|Accumulator] , Reversed).     
 ```
-Người dùng không cần biết Accummulator của mình hoạt động như thế nào, nên mình tém lại thành 1 logic ngắn gọn hơn: `reverse1((Original, Reversed)`.
+Người dùng không cần biết Accummulator của mình hoạt động như thế nào, nên mình tém lại thành 1 logic ngắn gọn hơn: `reverse1(Original, Reversed)`.
 
 ```prolog
 % using helper rule reverse_acc/3
@@ -275,7 +279,7 @@ reverse1(Original, Reversed) :-
 
 #### __Hạn chế của Prolog__ ####
 
-Mình search trên github với từ khóa `language:prolog` và tìm ra có khoảng hơn [10,000 repositories][prolog-on-github] sử dụng Prolog. Một con số không nhỏ, nhưng khá là khiêm tốn so với Java hoặc JavaScript - được sử dụng bởi hơn 4 triệu repositories. 
+Mình search trên github với từ khóa `language:prolog` và tìm ra có khoảng hơn [10,000 repositories][prolog-on-github] sử dụng Prolog. Một con số không nhỏ, nhưng khá là khiêm tốn nếu so với Java hoặc JavaScript - mỗi bạn được sử dụng bởi hơn 4 triệu repositories. 
 
 [prolog-on-github]: https://github.com/search?q=language%3Aprolog
 
