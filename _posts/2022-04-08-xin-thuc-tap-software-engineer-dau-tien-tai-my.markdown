@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "7 tháng đi tìm việc SWE Intern đầu tiên tại Mỹ"
+title:  "7 tháng tìm công việc thực tập SWE đầu tiên tại Mỹ"
 date:   2022-04-08 22:14:00 -0700
 categories: kinh-nghiệm
 ---
