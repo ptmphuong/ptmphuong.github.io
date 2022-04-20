@@ -275,6 +275,8 @@ reverse1(Original, Reversed) :-
   reverse_acc(Original, [], Reversed). % the empty list will be our accumulator
 ```
 
+Dĩ nhiên là Prolog sâu và rộng hơn những gì tui kể ra ở đây. Nhưng đây là một trong những đặc điểm tui cảm thấy là nổi bật nhất, và mong rằng có thể cho bạn *cảm* được Prolog là ngôn ngữ như thế nào.
+
 ## __Ứng dụng và hạn chế__
 
 #### __Hạn chế của Prolog__ ####
