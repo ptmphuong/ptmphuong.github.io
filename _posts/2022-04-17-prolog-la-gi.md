@@ -260,7 +260,8 @@ Viết thành code như sau:
 
 ```prolog
 % if the OriginalList is empty - this is where the process stops:
-% our accumulator has already accumulated all elements, andand contains the reversed list we want.
+% our accumulator has already accumulated all elements
+% and contains the reversed list we want.
 reverse_acc([] , Reversed, Reversed).
 
 % if the list is non-empty, we reverse the list
@@ -295,7 +296,7 @@ Ngoài ra, bản chất logic và declarative của Prolog không được thu�
 Nói đi thì cũng có nói lại, tính năng của Prolog rất phù hợp với những công việc có liên quan đến pattern matching và backtracking như: *graph db engine, language parsing trees, expert systems,* … 
 
 * 90%+ source code của **[Terminusdb][terminusdb-github]** - graph database and document store được viết bằng Prolog.
-* **IBM Watson** sử dụng Prolog để phân tích cú pháp của ngôn ngữ tự nhiên, hỗ trợ trong việc dịch từ ngôn ngữ người sang các thông tin có thể hiểu và phân tích được bởi Watson
+* **IBM Watson** sử dụng Prolog để phân tích cú pháp của ngôn ngữ tự nhiên, hỗ trợ trong việc dịch từ ngôn ngữ người sang các thông tin có thể hiểu và phân tích được bởi Watson. Cách viết và cấu trúc của Prolog đơn giản, phù hợp với project, performance cũng đủ nhanh nên được chọn dùng. 
 * Các ứng dụng khác của Prolog đa phần được viết thành những chương trình nhỏ (dưới 100,000 lines of codes), là một mảnh ghép trong các ứng dụng lớn hơn.
 * Ngoài ra, Prolog hiện vẫn đang được giảng dạy ở nhiều trường học. Ngoài mục đích nghiên cứu, thì toán logic vẫn căn bản vẫn là nền tảng của CS. 
 
