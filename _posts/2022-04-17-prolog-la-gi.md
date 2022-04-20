@@ -264,7 +264,7 @@ reverse_acc([Head|Tail] , Accumulator , Reversed) :-     % if the list is non-em
 
 Các bước reverse trông sẽ giống như vậy:
 | Original List | Accumulator | Reversed List |
-| ------------- | ----------- | ------------- |
+
 | [1,2,3,4]     | []          | []            |
 | [2,3,4]       | [1]         | []            |
 | [3,4]         | [2,1]       | []            |
