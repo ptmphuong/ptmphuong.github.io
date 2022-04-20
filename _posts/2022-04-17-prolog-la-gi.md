@@ -252,6 +252,7 @@ Khi gọi recursive calls, mình iterate qua list, vừa đi vừa tích lũy th
 | []            | [4,3,2,1]   | []            |
 
 Cho đến khi Original List đã được chiết ra hết, Accumulator hiện đang chứa list đã được xoay ngược như mong muốn. Nên mình bưng nó qua Reversed List.
+
 | Original List | Accumulator | Reversed List |
 | []            | [4,3,2,1]   | [4,3,2,1]     |
 
