@@ -2,7 +2,7 @@
 layout: post
 title:  "Xin học thạc sỹ Computer Science với tấm bằng Cử nhân kinh tế"
 date:   2020-08-29 04:35:00 -0700
-categories: kinh-nghiệm
+categories: career-stories
 ---
 
 **1 bài viết ngắn chia sẻ về quá trình xin học của tui**
