@@ -2,7 +2,7 @@
 layout: post
 title:  "7 tháng tìm công việc thực tập SWE đầu tiên tại Mỹ"
 date:   2022-04-08 22:14:00 -0700
-categories: kinh-nghiệm
+categories: career-stories
 ---
 
 Hè 2021 là kỳ học cuối tui có thể học từ xa, tui tranh thủ khăn gói laptop vào vali và đi lòng vòng nước Mỹ. Cuối tháng 8 về lại trường, tui ngẩn ngơ khi thấy bạn bè xung quanh đã và đang miệt mài luyện leetcode, chuẩn bị phỏng vấn, dự career fair,… Rồi đứa em nó nhắn: *chị phải chuẩn bị cv liền đi, các công ty học đang đăng tuyển cho hè năm sau rồi đấy!* 
