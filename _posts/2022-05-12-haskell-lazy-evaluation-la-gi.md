@@ -16,7 +16,7 @@ Khi trình phiên dịch gặp một expression (biểu thức), nó sẽ đứn
 <center><b>to evaluate or not to evaluate?</b></center>
 <br>
 
-**Evaluation** là quá trình tính toán ra giá trị tận gốc của một mảng code. Giá trị của `2 + 5` là `7`.
+**Evaluation** là quá trình tính toán ra giá trị tận gốc của một mảng code. Giá trị tận gốc của `2 + 5` là `7`.
 
 Đa phần các ngôn ngữ lập trình đều chọn evaluate ngay lập tức và lưu kết quả vào bộ nhớ. 
 Não mình cũng thường evaluate những chuyện đang xảy ra. Mình nói chuyện với một đứa bạn, nó bảo *“nó ở cùng với mẹ của mẹ nó"*. Trong đầu mình sẽ evaluate ra à, *“nó ở với bà ngoại của nó”*.
@@ -29,7 +29,7 @@ addOne(x, y) := x + 1
 addOne(4/2, 10+8)
 ```
 
-Thà giết thừa còn hơn bỏ sót, các ngôn ngữ sử dụng Eager Evaluation sẽ phải làm phép tính cho cả `4/2` và `10+8`. Nhưng tính ra `10+8` evaluate ra cũng không để làm gì.
+Thà giết thừa còn hơn bỏ sót, các ngôn ngữ sử dụng Eager Evaluation sẽ phải làm phép tính cho cả `4/2` và `10+8`. Nhưng tính `10+8` ra cũng không để làm gì.
 
 Đây là trường hợp mà **Lazy Evaluation** sẽ tỏa sáng. Gọi là lười vì Lazy Evaluation chỉ evaluate chính xác những giá trị cần dùng. 
 
@@ -38,7 +38,7 @@ Tui biết ví dụ `addOne` trên nghe hơi lố, ai mà lại viết code dở
 
 **Haskell** là gương mặt đại diện của Lazy Evaluation. Lazy evaluation và Haskell làm cho tui nghĩ đến bản chất lầy lội *(thi thoảng xuất hiện)* trong tui. Khi hoạt động theo cách này, interpreter đùn việc evaluation đến khi nào bị buộc phải làm thì mới vắt chân lên cổ mà chạy. Lắm lúc vậy mà lại tốt, khi bị dí sát nút thì nó chỉ tập trung chính vào giải quyết những việc bắt buộc cần làm, và tập trung làm cho nhanh.
 
-## **2. The gifts of lazy evaluation** 
+## **2. The gifts of laziness** 
 
 Nhờ cách làm này của Lazy evaluation mà mình có thể sử dụng các loại cấu trúc dữ liệu vô tận trong Haskell.
 
@@ -62,13 +62,15 @@ takeWhile (<100) mul15  –- output: [15,30,45,60,75,90]
 
 Stream là 1 loại infinite data structure thường xuyên xuất hiện trong nhiều lĩnh vực như networking, lexical analysis, sound analysis, vân vân. Haskell tạo điều kiện thuận lợi để xử lý với những dữ liệu này.
 
+### **2.2 Concise code**
+
 `range()`, `zip()` trong Python cũng vận dụng cách làm của Lazy Evaluation. `range(0, 100)` trong Python được lưu bằng dưới dạng `range`, thay vì 1 list dài liệt kê đủ từ 0 tới 100.
 
 Mình còn có `map()`, `filter()` - những function kinh điển được tạo ra bởi combo của Lazy Evaluation và Functional Programming. Những hàm này không những làm gọn code trên bề mặt, mà còn tiết kiệm được bao nhiêu công sức parse và evaluate. Cũng vì lẽ đó mà được sử dụng rộng rãi tại rất nhiều ngôn ngữ khác.
 
 Cũng nhờ sử dụng nhuần nhuyễn `map()` và `filter()` trong Haskell mà khi code, tui thường nghĩ đến cách biến đổi của dữ liệu hơn, thay vì phải suy nghĩ từng bước mệnh lệnh cho chương trình.
 
-### **2.2 Data transformation**
+### **2.3 Data transformation**
 
 Ví dụ: mình có function `doubleMe` dùng để nhân đôi mọi giá trị trong list.
 * **Input**:  numList = [1, 2, 3, 4]
