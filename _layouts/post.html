@@ -4,10 +4,15 @@ comments: true
 ---
 
 <h2 class="post_title">
-  {{ page.title }}
-  {% if page.date %}
+  <center>
+    <big>{{ page.title }}</big>
+    <br>
+    {% if page.date %}
     <small>{{ page.date | date_to_string }}</small>
-  {% endif %}
+    {% endif %}
+    <br>
+    <small>・</small>
+  </center>
 </h2>
 
 {{ content }}
