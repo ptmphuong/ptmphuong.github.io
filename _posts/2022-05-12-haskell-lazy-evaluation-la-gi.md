@@ -104,7 +104,7 @@ Vì lười, nên khi gặp `doubleMe3 = doubleMe $ doubleMe $ doubleMe [1, 2, 3
 Khi code bị gọi, Haskell mới đủng đỉnh evaluate theo thứ tự: ngoài vào trong (trái sang phải). 
 * Anh `doubleMe` ngoài cùng là anh cả. 
 * Anh cả bị sẽ gọi anh hai `doubleMe` ngay bên trong: *“double cái cái số 1 này cho tao coi"*.  Anh hai gọi tiếp anh ba. 
-* Anh ba là út không còn sai ai được nữa, đành phải tính trước: doubled 1 - là 2 trả lại cho anh hai, 2 trả lại 4, 4 trả lại 8.
+* Anh ba là út không còn sai ai được nữa, đành phải tính: doubled 1 - là 2 trả lại cho anh hai, 2 trả lại 4, 4 trả lại 8.
 
 Cứ thế, với từng con số trong list anh cả sẽ hò hét  cho mấy đứa em làm. Toàn bộ chỉ dùng 1 iteration.
 
@@ -113,7 +113,9 @@ Cứ thế, với từng con số trong list anh cả sẽ hò hét  cho mấy �
 
 ## **3. How does laziness work?**
 
-Haskell lười theo 2 nguyên tắc sau: **Evaluate at most once & Evaluate only when needed.**
+Haskell lười theo 2 nguyên tắc sau: 
+* Evaluate at most once
+* Evaluate only when needed
 
 ### **3.1 Evaluate at most once**
 Đã lười thì mình lười cho tới. Thông thường parser sử dụng **Abstract Syntax Tree (AST)** để lưu trữ thông tin. Còn Haskell vận dụng **Graph** để tiện xài lại kết quả evaluate của các expression giống nhau.
@@ -130,9 +132,9 @@ Khi được triệu hồi để evaluate, trình phiên dịch sẽ dùng thôn
 
 <center><img src="{{ site.url }}/assets/haskell-lazy-evaluation/haskell_evaluation_thunk.png"></center>
 
-## **4. Limits and conclusion**
+## **4. Conclusion**
 
-Để ý thấy nhiều thunk tạo ra trên heap thế kia thì chắc bạn cũng đoán được lazy evaluation tốn cũng kha khá bộ nhớ, từ đó khó mà đo lường được chính xác hiệu quả của chương trình. Ngoài nha, anh nhà Garbage Collector chắc cũng phải đô con lắm để dọn được hết cái mớ này.
+Để ý thấy nhiều thunk được tạo ra trên heap thế kia thì chắc bạn cũng đoán được lazy evaluation tốn cũng kha khá bộ nhớ, từ đó khó mà đo lường được chính xác công suất bộ nhớ của chương trình. Ngoài nha, anh nhà Garbage Collector chắc cũng phải đô con lắm để dọn được hết cái mớ này.
 
 Đây là một trong số nhiều thông tin tui gom góp được sau 3 tháng nếm mùi Haskell. Dù tui không đi theo Haskell và pure functional programming (xin lỗi vì plot twist :3), nhưng có thể nói Haskell đã cho tui một cách nghĩ mới mẻ trong lập trình. Từ giờ khi code mà thấy những mảnh ghép đến từ functional programming thì mình cũng biết bản chất lười mà khôn của tụi nó.
 
