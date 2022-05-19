@@ -82,7 +82,7 @@ Nếu viết theo cách imperative programming, tui chọn Python, mình sẽ vi
 def doubleMe(numList):
   output = []
   for num in numList:
-    output.append(num)
+    output.append(num*2)
   return output
 ```
 
@@ -90,7 +90,7 @@ def doubleMe(numList):
 
 Còn Haskell trong functional programming sẽ viết như sau:
 ```haskell
-doubleMe numList = map (\num -> num + 1) numList
+doubleMe numList = map (\num -> num*2) numList
 ```
 
 Hơi khác nhau một xíu rồi, nhưng nếu mình muốn gọi cái `doubleMe` này 3 lần thì mọi chuyện lại rẽ hướng xa hơn:
