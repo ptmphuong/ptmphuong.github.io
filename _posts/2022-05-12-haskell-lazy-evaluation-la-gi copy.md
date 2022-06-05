@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Algorithm là gì? Tại sao học lập trình lại phải học Algorithms?"
-date:   2022-05-11 08:00:00 -0700
+date:   2022-06-05 15:00:00 -0700
 categories: cs-foundation
 ---
 
@@ -12,29 +12,26 @@ categories: cs-foundation
 
 Bài này tui viết cho tui cách đây 2 năm, người con gái chân ướt chân ráo lơ ngơ đi học lập trình.
 
-“**Algorithm**" - cái từ gì vừa ảo ảo và còn lại hay gặp. **Thuật toán**. Chậc, nghe thật cao siêu. Hỏi [wikipedia](https://en.wikipedia.org/wiki/Algorithm) thì được đập cái đống này vào mặt:
+**Algorithm**? Cái từ gì vừa ảo ảo và còn lại hay gặp. **Thuật toán**. Chậc, nghe thật cao siêu. Hỏi [wikipedia](https://en.wikipedia.org/wiki/Algorithm) thì được đập cái đống này vào mặt:
 
-```
-In mathematics and computer science, an algorithm (/ˈælɡərɪðəm/ (listen)) is a finite sequence of rigorous well-defined instructions, typically used to solve a class of specific problems or to perform a computation.[1] 
-```
+> In mathematics and computer science, an algorithm (/ˈælɡərɪðəm/ (listen)) is a finite sequence of rigorous well-defined instructions, typically used to solve a class of specific problems or to perform a computation. 
 
 *Finite Sequence*, *Instructions*, *Computation*, … là gì nữa? Thế là cả một thời gian đấy, đi đâu đọc tài liệu mà thấy chữ *algorithm* là đầu tui sẽ tự động beep cái đoạn đó ngay.
 
-Bây giờ nhìn lại cũng không nhớ sao hồi xưa tui lại xoắn như vậy :))
+Bây giờ nhìn lại cũng không nhớ sao hồi xưa tui lại xoắn như vậy nữa.
 
 
 ## **1. Algorithm là gì?**
 
-Algorithms có thể được hiểu rất đơn giản, là:
-* cách làm một công việc, hoặc cách giải quyết một vấn đề
-* được viết chi tiết ra bằng nhiều bước.
+Algorithms có thể được hiểu rất đơn giản, là: 
+<center>cách làm một công việc hoặc cách giải quyết một vấn đề<br>được viết chi tiết ra bằng nhiều bước.</center>
 
 . . .
 
-Một trong những thuật toán để **đập trứng bằng một tay* là:
+Một trong những thuật toán để **đập trứng bằng một tay** là:
 1. Rửa tay
-2. Đập nhẹ ngay chính giữa quả trứng
-3. Vòng ngón trỏ và ngón cái xung quanh quả trứng sao cho 2 đầu ngón nằm ngay chỗ vừa crack
+2. Đập bể nhẹ ngay chính giữa quả trứng
+3. Vòng ngón trỏ và ngón cái xung quanh quả trứng sao cho 2 đầu ngón nằm ngay chỗ vừa bể nhẹ
 4. Dùng lực ngón cái để mở banh quả trứng
 5. Dùng lực 2 ngón để tách vỏ trứng và để trứng rơi ra.
 
@@ -59,9 +56,7 @@ Còn máy tính thì chạy dựa trên một loạt các mệnh lệnh mà mìn
 
 Quay lại với định nghĩa Algorithms của [wikipedia](https://vi.wikipedia.org/wiki/Thu%E1%BA%ADt_to%C3%A1n):
 
-```
-Trong toán học và khoa học máy tính, một thuật toán, còn gọi là giải thuật, là một tập hợp hữu hạn các hướng dẫn được xác định rõ ràng, có thể thực hiện được bằng máy tính, thường để giải quyết một lớp vấn đề hoặc để thực hiện một phép tính.[1][2] 
-```
+> Trong toán học và khoa học máy tính, một thuật toán, còn gọi là giải thuật, là một tập hợp hữu hạn các hướng dẫn được xác định rõ ràng, có thể thực hiện được bằng máy tính, thường để giải quyết một lớp vấn đề hoặc để thực hiện một phép tính.
 
 Ha. Cũng có lý.
 
