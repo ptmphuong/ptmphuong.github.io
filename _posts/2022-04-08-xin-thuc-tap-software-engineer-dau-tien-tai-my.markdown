@@ -131,4 +131,6 @@ Có 1 [trang][2022-summer-intern-process-tracking] này thu thập tiến độ 
 
 Có bạn bảo: *Hình như tech là ngành duy nhất yêu cầu bạn phải có đam mê mới theo đuổi được*. Nhưng là tui hoàn toàn không đòng ý. Ngành nào cũng cần đam mê và tận tụy để theo đuổi và thành công hết. Nhưng có 1 điều không thể phủ nhận được là tech là một trong những ngành cạnh tranh nhất trên thị trường hiện nay. Các bạn mới bắt đầu, và bắc ngang như mình phải cần cù chịu khó thật nhiều, thì mới bước chân được vào cánh cửa. Nên mình phải cố lên thôi, cố cho đến ngày mình làm được, cho đến ngày yếu tố may mắn nháy mắt với mình *\*blink blink\**
 
+<center><img src="{{ site.url }}/assets/first-internship-app/welcome-to-confluent.pngg"></center>
+<br>
 <center><img src="{{ site.url }}/assets/first-internship-app/welcome-aboard-noogler.png"></center>
