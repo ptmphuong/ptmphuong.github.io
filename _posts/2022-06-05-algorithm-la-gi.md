@@ -76,7 +76,7 @@ Thuật toán được dùng trong mọi ngóc ngách của Computer Science. C�
 
 Bài này tui xin phép viết ngắn gọn vậy thôi. Tui của ngày trước đã từng ước gì có thể tìm một lời giải thích ngắn gọn về Algorithm để có thể nhanh chóng trở lại đọc tiếp tài liệu.
 
-Nếu bạn thắc mắc **Tại sao phải ôn luyện Algorithms để phỏng vấn xin việc làm Software Engineer**, bài viết này của tui có nói sơ qua: [7 tháng tìm công việc thực tập SWE đầu tiên tại Mỹ](https://tuihoccode.com/kinh-nghi%E1%BB%87m/2022/04/09/xin-thuc-tap-software-engineer-dau-tien-tai-my.html).
+Nếu bạn thắc mắc **Tại sao phải ôn luyện Algorithms để phỏng vấn xin việc làm Software Engineer**, bài viết này của tui có nói sơ qua: [7 tháng tìm công việc thực tập SWE đầu tiên tại Mỹ](https://tuihoccode.com/career-stories/2022/04/09/xin-thuc-tap-software-engineer-dau-tien-tai-my.html).
 
 Ngoài ra, tui rất thích series Crash Course Computer Science của Crash Course ở trên Youtube. Các bạn í có 1 tập về [Intro to Algorithms](https://www.youtube.com/watch?v=rL8X2mlNHPM&ab_channel=CrashCourse) để bạn tham khảo thêm.
 
