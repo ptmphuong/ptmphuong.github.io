@@ -39,10 +39,20 @@ Voilà! Sự nghiệp chiên trứng của tui đã tiến lên một tầm cao 
 
 . . .
 
+Có nhiều cách để hoàn thành một công việc, cũng như có nhiều thuật toán để giải quyết được một vấn đề.
+
 Một trong những thuật toán để **sort a list `L`** là:
 1. Tạo 1 list mới tên `Ls`
-2. Tìm 1 số nhỏ nhất trong `L` rồi bốc qua `Ls`
+2. Lấy 1 số nhỏ nhất trong `L` ra rồi thêm vào `Ls`
 3. Lập lại bước 2 cho đến khi không còn gì trong `L` nữa.
+
+| L | Ls |
+| --- | --- |
+| 3, 4, 1, 2 |  |
+| 3, 4, 2 | 1 |
+| 3, 4 | 1, 2 |
+| 4 | 1, 2, 3 |
+|   | 1, 2, 3, 4 |
 
 . . .
 
@@ -66,16 +76,11 @@ Thuật toán được dùng trong mọi ngóc ngách của Computer Science. C�
 
 Bài này tui xin phép viết ngắn gọn vậy thôi. Tui của ngày trước đã từng ước gì có thể tìm một lời giải thích ngắn gọn về Algorithm để có thể nhanh chóng trở lại đọc tiếp tài liệu.
 
-Nếu bạn thắc mắc tại sao người ta lại dùng Algorithms để phỏng vấn ứng viên Software Engineer thì có thể ghé đọc bài viết này của tui: [7 tháng tìm công việc thực tập SWE đầu tiên tại Mỹ](https://tuihoccode.com/kinh-nghi%E1%BB%87m/2022/04/09/xin-thuc-tap-software-engineer-dau-tien-tai-my.html).
+Nếu bạn thắc mắc **Tại sao phải ôn luyện Algorithms để phỏng vấn xin việc làm Software Engineer**, bài viết này của tui có nói sơ qua: [7 tháng tìm công việc thực tập SWE đầu tiên tại Mỹ](https://tuihoccode.com/kinh-nghi%E1%BB%87m/2022/04/09/xin-thuc-tap-software-engineer-dau-tien-tai-my.html).
 
-
-Ngoài ra, tui rất thích series Crash Course Computer Science của Crash Course. Các bạn í có 1 tập về [Intro to Algorithms](https://www.youtube.com/watch?v=rL8X2mlNHPM&ab_channel=CrashCourse) để bạn tham khảo thêm.
+Ngoài ra, tui rất thích series Crash Course Computer Science của Crash Course ở trên Youtube. Các bạn í có 1 tập về [Intro to Algorithms](https://www.youtube.com/watch?v=rL8X2mlNHPM&ab_channel=CrashCourse) để bạn tham khảo thêm.
 
 Để thực tập giải algo thì xin mời bạn ghé [leetcode.com](https://leetcode.com/) quẹo lựa.
-
-
-
-
 
 
 
