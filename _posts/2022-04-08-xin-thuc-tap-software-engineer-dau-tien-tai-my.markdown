@@ -91,7 +91,10 @@ Tới bước này là thảo luận thủ tục, thù lao - thường được 
 
 Là intern/new grads chưa có nhiều kinh nghiệm, nên phần lớn quá trình tuyển dụng đều xoay quanh các câu hỏi leetcode để test cách tư duy của ứng viên.
 
-Tui là tui rất ngại leetcode. Thời gian đầu tui chỉ muốn lao đầu vào làm project, học các công nghệ mới. Nhưng phải công nhận luyện leetcode giúp tui rất nhiều trong việc rèn cấu trúc dữ liệu, thuật toán, viết code thơm tho sạch sẽ hơn. Xịn nhất là khi tui phát hiện ra mình cũng tiến bộ về cách tiếp cận và giải quyết vấn đề ra phết.
+_Tui không thích leetcode đâu_. (*) Thời gian đầu tui chỉ muốn lao đầu vào làm project, học các công nghệ mới. Nhưng phải công nhận luyện leetcode giúp tui rất nhiều trong việc rèn cấu trúc dữ liệu, thuật toán, viết code thơm tho sạch sẽ hơn. Xịn nhất là khi tui phát hiện ra mình cũng tiến bộ về cách tiếp cận và giải quyết vấn đề ra phết.
+
+(*) Tui xin rút lại câu này 😅 Bài viết đính chính ở đây: [Leetcode luyện phỏng vấn vs. Đi làm]([url](https://tuihoccode.com/career-stories/2022/06/20/leetcode-luyen-phong-van-vs-di-lam.html))
+
 
 Mọi thứ đều xoay quanh leetcode cũng là một kẽ hở của quy trình này. Trang leetcode có 1 kho câu hỏi, ai chăm giải leetcode nhiều thì có thể nhớ cách giải. Do đó nếu tuyển dụng chỉ dựa trên leetcode thì khó có thể test toàn diện được khả năng của ứng viên.
 
