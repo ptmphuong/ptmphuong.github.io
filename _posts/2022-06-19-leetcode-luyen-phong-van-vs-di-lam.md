@@ -5,9 +5,15 @@ date:   2022-06-19 19:00:00 -0700
 categories: career-stories
 ---
 
+<center><img src="{{ site.url }}/assets/about/leetcode-vs-dil-lam-2.JPG"></center>
+
+<br>
+
 Trong một bài blog [cũ][Xin thực tập Software Engineer đầu tiên tại Mỹ], tui hùng hồn tuyên bố: 
 
-<center>“Thật lòng là tui không thích leetcode đâu."</center>
+<center>“Ttui không thích leetcode đâu."</center>
+
+<br>
 
 Ồ queo queo 😅, tui xin rút lại lời nói đó.
 
@@ -21,7 +27,7 @@ Note: Leetcode bài nào (vd: Tree, BFS, DFS, DP, … ), có áp dụng vào cô
 
 ##  **1. Tìm cách giải tối ưu**
 
-Ticket đầu tiên của tui là làm string manipulation for a name field để hỗ trợ chức năng tìm kiếm cho một sản phẩm nội bộ. Nói đơn giản là vậy.
+Ticket đầu tiên của tui là làm **string manipulation for a name field** để hỗ trợ chức năng tìm kiếm cho một sản phẩm nội bộ. Nói đơn giản là vậy.
 
 Đọc xong mô tả, tui thở phào “ồ, cũng dễ mà. cái này viết 10 phút là xong". Cho đến nửa ngày sau, tui vẫn còn đi lạc trong cái code base để tìm xem mình sẽ nhét cái chỗ sửa của mình ở đâu, và nhét các helper function của mình ở đâu, tui mới bắt đầu mở mắt to ra và nhận ra rằng: cái code của mình, chắc chỉ tầm 5 dòng thôi, nhưng nó sẽ liên quan đến cả cái đống code này.
 
@@ -36,15 +42,15 @@ Khi giải leetcode, mình luyện giải tối ưu cho time & space complexity 
 Lúc viết xong 1 bản nháp của code, tui rà lại code, test nhẹ trên các trường hợp sẵn có và nhận được các kết quả như ý muốn. Sướng quá nên tui hí hửng đem đi khoe với mentor thì được bốp lại câu này: 
 > “Test cases are your friend. Via postman it will usually work because the database has correct values but we need our code safeguarded against all future bad values.”
 
-Thấm thía thiệt, tui nghĩ mình đã cover các trường hợp input rỗng và null, nhưng chưa đủ. Mình phải đặt thêm nhiều câu hỏi. Khi công ty hoặc sản phẩm đó phát triển thêm, giải pháp của mình có đủ trường tồn không? Làm sao để đạt được điều đó?
+Thấm thía thiệt, tui nghĩ mình đã cover các trường hợp input *rỗng* và *null*. Nhưng thế chưa đủ, mình phải đặt thêm nhiều câu hỏi. Khi công ty hoặc sản phẩm đó phát triển thêm, giải pháp của mình có đủ trường tồn không? Làm sao để đạt được điều đó?
 
-Khi làm leetcode, mình có thể make assumptions về các thể loại input. Khi đi làm thật, mình phải suy nghĩ thấu đáo hơn. Mình phải viết đầy đủ tests, unit tests, để chắc chắn code behave đúng như mình dự định.
+Khi làm leetcode, mình có thể make assumptions về các thể loại input. Khi đi làm thật, mình phải suy nghĩ thấu đáo hơn. Mình phải viết đầy đủ **tests, unit tests**, để chắc chắn code chạy đúng như mình dự định.
 
-Một tip nhẹ khi đi phỏng vấn, hãy đặt bài toán và giải pháp của mình vào một tình huống thật, hãy chứng tỏ mình là một người biết nhìn ra trông rộng. Mình có những cân nhắc gì để chứng tỏ rằng code của mình có thể bao phủ mọi trường hợp có thể xảy ra trong tương lai?
+Một tip nhẹ khi đi phỏng vấn, nếu tình huống cho phép hãy đặt bài toán và giải pháp của mình vào một dự án thật. Mình có thể đặt thêm câu hỏi về tương lai phát triển của tính năng này và đưa ra những phương án thích hợp. 
 
 ## **3. Viết code dễ đọc**
 
-Tui không ngờ rằng ngồi nghĩ tên cho từng function và variable lại tốn thời gian đến thế.
+Tui không ngờ rằng nội cái chuyện nghĩ tên cho từng function và variable thôi mà lại tốn thời gian đến thế.
 
 - Tên thế này đã đủ nói lên công dụng của cái variable này chưa? Chọn tên `name` cho ngắn hay phải ghi `nameWithoutPrefix` cho đầy đủ dễ đọc nhỉ?
 - Tên này có đồng bộ với cách đặt tên của các variable khác trong code base không?
@@ -66,6 +72,7 @@ if (this) {
         }
 ```
 
+Ngoài ra còn có chuyện viết log, dùng paradigm, ... ti tỉ các chi tiết khác cần được viết đồng bộ với code base nữa.
 
 Khi phỏng vấn, làm leetcode, thực hành đặt tên biến dễ đọc, viết code dễ hiểu luôn là một điểm cộng. Khi làm việc trong một code base lớn cùng với nhiều người khác, đây là chuyện bắt buộc.
 
