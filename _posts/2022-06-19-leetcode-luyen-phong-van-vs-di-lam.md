@@ -5,10 +5,6 @@ date:   2022-06-19 19:00:00 -0700
 categories: career-stories
 ---
 
-<center><img src="{{ site.url }}/assets/about/leetcode-vs-dil-lam-2.JPG"></center>
-
-<br>
-
 Trong một bài blog [cũ][Xin thực tập Software Engineer đầu tiên tại Mỹ], tui hùng hồn tuyên bố: 
 
 <center>“Ttui không thích leetcode đâu."</center>
@@ -97,3 +93,6 @@ Tui không cố xuý việc phải luyện học thuộc nhiều trăm câu leet
 
 À quên, không biết có ai quan tâm không, nhưng tui đi làm vui lắm. Sau khi nghỉ việc mông lung gap year 1 năm, đi học 2 năm, giờ được quay lại với môi trường làm việc thấy đời bỗng rộn ràng. Vậy thôi, see you in the next post : )
 
+<br>
+
+<center><img src="{{ site.url }}/assets/about/leetcode-vs-dil-lam-2.JPG"></center>
