@@ -11,12 +11,12 @@ Lâu rồi tui không viết, đâm ra muốn viết gì cũng cảm thấy khó
 Kiểu như đứa bạn thân lâu năm bỗng nhắn tin hỏi han, mình không biết bắt đầu từ đâu. 
 Hay như lúc code một ngôn ngữ lập trình lâu rồi không dùng, mình cần thời gian làm quen lại với syntax. 
 
-Mọi thứ đều ở đó, thật nhiều ý tưởng tui muốn viết đều chất đầy trong thư mục blog_drafts để đó. 
+Mọi thứ đều ở đó, nhiều ý tưởng tui muốn viết đều chất đầy trong thư mục blog_drafts để đó. 
 Dăm ba vài bài viết dang dở và nham nhở dồn lại trong vòng tháng nay. Nhiều dấu gạch đầu dòng, nhiều câu đơn rời rạc, mà tui thì khô khan không biết cách nào để kết nối. Bài này tui sẽ freestyle lạng lách, để xem lênh láng được đến đâu thì đến.
 
 # Code
 
-Cũng cả gần tháng nay tui chưa code. Trước đó thì tui code liền tù tì cho 2 mùa thực tập. Kể ra cũng được hơn nửa năm.
+Cũng cả gần tháng nay tui cũng chưa code. Trước đó thì tui code liền tù tì cho 2 mùa thực tập. Tính ra cũng được hơn nửa năm.
 
 ## Mùa Hạ
 
@@ -36,7 +36,7 @@ Mùa hạ ở Seattle đến 10pm trời mới tối nên tui tha hồ làm đư
 Một lần ghé thăm văn phòng Confluent, tui ở Airbnb với một chị gái làm ở NASA. 
 Nói đến công việc, tui bảo chị ấy tui làm việc với đám mây. Chị ấy tròn xoe mắt bảo “ơ tôi cũng vậy?”. 
 Té ra chị ấy làm việc với đám mây thật trên trời, còn tui thì làm việc với điện toán đám mây (cloud computing). 
-Ở Confluent, tui học làm việc với docker, kubernetes, học viết Java ngon lành hơn, tiện thể cũng viết được một chút TypeScript và Golang. 
+Ở Confluent, tui học làm việc với docker, kubernetes, học viết Java ngon lành, tiện thể cũng viết được một chút TypeScript và Golang. 
 Đoạn tính năng tui làm trong control plane của Kafka, theo lời mentor kể, vẫn được dùng hàng ngày trong nội bộ. Trộm vía.
 
 <center><img src="{{ site.url }}/assets/2022/internship-at-confluent.png"></center>
@@ -47,8 +47,8 @@ Té ra chị ấy làm việc với đám mây thật trên trời, còn tui th�
 Ở Google, tui được chọn thực tập từ xa hoặc đến thực tập ở văn phòng Sunnyvale. 
 Tất nhiên là tui chọn đến văn phòng. Với cả tui cũng muốn thử xem sống ở thung lũng Silicon ra sao. 
 
-Giờ thi tui đã kết luận là tui không thích ở đấy cho lắm. Dù vậy, 3 tháng này tui gặp được rất nhiều người hay ho. 
-Lên văn phòng hằng ngày, cộng thêm văn phòng tọa lạc trong một trong những campus lớn nhất của Google nên kết bạn ở đây dễ như hồi đi học cấp 3. Cứ mỗi trưa đến, tui lại xuống sân trước sảnh tòa MP1 chơi cờ vua. Thế là lại quen được hội cờ vua. Một lần tui xung phong phụ trách phần trang trí cho lễ hội trung thu. Thế là tui quen được biết bao người Việt làm ở Google. Rồi là team events, org events, học yoga ngoài trời, vân vân. Lần nọ tui cúp làm 2 ngày để đi Rust summit in Google, tui ngồi nghe như nước đổ đầu vịt , run như cầy sấy không dám nói chuyện với ai vì xung quanh toàn người xịn, nhưng bù lại tui cũng bỏ túi đem về được mấy con cua nhồi bông.
+Giờ thi tui đã kết luận là tui không thích sống ở đấy cho lắm. Dù vậy, 3 tháng này tui gặp được rất nhiều người hay ho. 
+Lên văn phòng hằng ngày, cộng thêm văn phòng nằm trong một trong những campus lớn nhất của Google nên kết bạn ở đây dễ như hồi đi học cấp 3. Cứ mỗi trưa đến, tui lại xuống sân trước sảnh tòa MP1 chơi cờ vua. Thế là lại quen được hội cờ vua. Một lần tui xung phong phụ trách phần trang trí cho lễ hội trung thu. Thế là tui quen được biết bao người Việt làm ở Google. Lần nọ tui cúp làm 2 ngày để đi Rust summit in Google, tui ngồi nghe như nước đổ đầu vịt, run như cầy sấy không dám nói chuyện với ai vì xung quanh toàn người xịn, nhưng bù lại tui cũng bỏ túi đem về được mấy con cua nhồi bông.
 
 <center><img src="{{ site.url }}/assets/2022/internship-at-google-1.png"></center>
 <br>
