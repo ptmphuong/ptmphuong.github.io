@@ -23,7 +23,7 @@ Cũng cả gần tháng nay tui cũng chưa code. Trước đó thì tui code li
 Tui thực tập ở Confluent. Văn phòng của Confluent ở Bay Area nhưng đây là chương trình thực tập từ xa, thế nên tui vẫn ở Seattle. 
 
 Một ngày làm việc ở Confluent của tui thường như sau: 
-8 giờ sáng tui bật dậy khỏi dường và bắt đầu làm việc ngay. Bật dậy tại tui thích công việc này. 
+8 giờ sáng tui bật dậy và bắt đầu làm việc ngay. Bật dậy tại tui thích công việc này. 
 Có lúc tui làm ở nhà, lúc trong quán cafe trên đầu con dốc 1st West Ave. 
 5 giờ chiều tui tắt máy cho kịp đi tập yoga ở phía kia công viên Olympic Sculpture Park, từ nhà đi bộ ra lớp học yoga tầm 10 phút, tập xong tui chọn đường ven biển đi về. 
 Nếu hôm đấy là thứ 5 thì tui đi bộ ra Happy Lemon ở South Lake Union ngồi tán dóc với một nhóm nhỏ người Việt đi làm/ở downtown Seattle. 
