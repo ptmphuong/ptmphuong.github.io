@@ -12,7 +12,7 @@ Kiểu như đứa bạn thân lâu năm bỗng nhắn tin hỏi han, mình khô
 Hay như lúc code một ngôn ngữ lập trình lâu rồi không dùng, mình cần thời gian làm quen lại với syntax. 
 
 Mọi thứ đều ở đó, nhiều ý tưởng tui muốn viết đều chất đầy trong thư mục blog_drafts để đó. 
-Dăm ba vài bài viết dang dở và nham nhở dồn lại trong vòng tháng nay. Nhiều dấu gạch đầu dòng, nhiều câu đơn rời rạc, mà tui thì khô khan không biết cách nào để kết nối. Bài này tui sẽ freestyle lạng lách, để xem lênh láng được đến đâu thì đến.
+Dăm ba vài bài viết dang dở và nham nhở dồn lại trong vòng tháng nay. Nhiều dấu gạch đầu dòng, nhiều câu đơn rời rạc, mà tui thì khô khan không biết cách nào để kết nối.
 
 # Code
 
