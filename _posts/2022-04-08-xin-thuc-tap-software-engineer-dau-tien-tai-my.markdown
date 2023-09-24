@@ -19,13 +19,13 @@ Tháng 8, 9 là thời điểm sớm nhất cho các công ty bắt đầu mở 
 ## __Quá trình phỏng vấn cho Software Engineer Intern__
 Dưới đây là các bước chung cho giai đoạn phỏng vấn. Các vòng được cắt bớt, hoặc chèn thêm, tùy vào từng công ty.
 
-### 1. Nộp resume
+### __1. Nộp resume__
 Tui nhớ khoảng tháng 9 đến 11 là mùa tuyển dụng cao điểm cho mùa hè năm sau., các công ty nô nức trẩy hội đăng tuyển đăng tuyển trên các trang tuyển dụng như [LinkedIn][linkedin.com], [Handshake][handshake.com],... và cả trang nghề nghiệp của các trường. Một số công ty lớn có tổ tổ chức thực tập quanh năm (thu, xuân) thì sẽ đăng khoảng trước 6 tháng trước cho mùa làm việc đó..
 
 [linkedin.com]: https://www.linkedin.com/
 [handshake.com]: https://joinhandshake.com/
 
-### 2. Online Assessment
+### __2. Online Assessment__
 Nếu hồ sơ được lọt qua vòng đầu, bạn sẽ được gọi làm bài test online, mọi người hay gọi tắt là OA. Ở vòng này, mình được gửi link dẫn đến các trang làm bài test (như [Codesignal][codesignal.com], [Hackerrank][hackerrank.com]) và làm tầm 2~4 câu hỏi dạng leetcode trong vòng 60~120 phút.
 
 [codesignal.com]: https://codesignal.com/
@@ -44,7 +44,7 @@ Cái chính ở đây là mình phải code cách giải cách tối ưu (time a
 
 Đây chỉ là một ví dụ đơn giản. Với các vấn đề khó hơn, như graph, dynamic programing vân vân, thì mình phải biết áp dụng các cách giải đã được chứng minh, hay thuật toán (algorithms) để giải quyết.
 
-### 3. Phone screen
+### __3. Phone screen__
 Vòng này cũng vẫn là leetcode, nhưng mình code live trên google sheet hay [coderpad][coderpad.io] cùng với 1 nhân viên lập trình của công ty, vừa giải vừa nói những gì mình đang suy nghĩ. 
 
 Các câu hỏi ở vòng này có thể sẽ mờ ảo hơn. Ngoài việc giải, mình còn phải thể hiện cách tiếp cận với những vấn đề chưa rõ ràng, cách trình bày vấn đề, tư duy giải quyết cho người phỏng vấn. 
