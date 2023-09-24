@@ -6,10 +6,11 @@ permalink: /about/
 <!-- <center><img src="{{ site.url }}/assets/about/tuihoccode.jpg"></center> -->
 <p><img src="{{ site.url }}/assets/about/tuihoccode.jpg" style="float: left; max-width: 50%;margin: 1em 2em 0 0"></p>
 
-<br>Chào mọi người, tui là Minh Phượng (MP). Tui đi làm marketing được 5 năm thì chuyển qua học code. Hiện tui đang làm Software Engineer tại Google, sống tại Seattle (bang Washington, Mỹ).
+**<br>Chào mọi người, tui là Minh Phượng (MP). Tui đi làm marketing được 5 năm thì chuyển qua học code. Hiện tui đang làm Software Engineer tại Google, sống tại Seattle (bang Washington, Mỹ).
+**
 
 Ngày trước tui làm marketing tại các tech startups ở Taiwan và TP.HCM. 
-Làm việc trong các tech team nhỏ như vậy cho phép tui làm một số công việc kỹ thuật liên quan đến database, data analytics và tui bắt đầu mày mò lập trình từ đó. 
+Làm việc trong các tech team nhỏ cho phép tui mày mò một số công việc liên quan đến database, analytics và tui bén duyên với lập trình từ đó. 
 Sau 1 năm nghỉ việc để tìm hiểu đam muê, tự học căn bản, tui lại quyết định cắp sách đến trường. 
 
 Tui theo học chương trình MSCS Computer Science - Align tại trường Northeastern. Quá trình xin apply vào trường học tui có chia sẻ ở [đây][xin-hoc-thac-sy-Computer-Science]. Khi đi học, tui có tham gia thực tập Software Engineer tại Confluent và Google, quá trình xin internship được chia sẻ ở [đây][xin-thuc-tap-software-engineer-dau-tien-tai-my]. Sau khi tốt nghiệp, tui nhận lời mời vào làm chính thức tại Google.
