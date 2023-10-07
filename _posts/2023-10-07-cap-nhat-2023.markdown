@@ -19,8 +19,8 @@ Trên trường chỉ còn 1 môn cuối, tui xin học online nên thời gian 
 1-2 tuần cuối, dù mới nói được bập bẹ nhưng tui cũng ráng làm liều bắt xe đò đi dọc Mexico lên khám phá thủ đô Mexico City, ghé cả Puebla. 
 
 <center><img src="{{ site.url }}/assets/2023-update/in-mexico2.jpg"></center>
-<center><img src="{{ site.url }}/assets/2023-update/in-mexico1.jpg" width="500"></center>
-<center><img src="{{ site.url }}/assets/2023-update/in-mexico3.jpg" width="500"></center>
+<center><img src="{{ site.url }}/assets/2023-update/in-mexico1.jpg" width="300"></center>
+<center><img src="{{ site.url }}/assets/2023-update/in-mexico3.jpg" width="300"></center>
 <br>
 
 Chuyến đi xa này tui gặp được rất nhiều người đến từ mọi nơi, kết được một số bạn tốt, ăn được kha khá các món mới lạ. 
@@ -37,7 +37,7 @@ Vế cuối lúc ấy dù không thành hiện thực nhưng được đi du l�
 Tui nhớ lại lần nhà tui đi 1 vòng Đài Loan lúc tui tốt nghiệp đại học, lần tui đi Hongkong với mẹ khi tui có một công việc ổn định, còn bao nhiêu những lần như vậy nữa.
 
 <center><img src="{{ site.url }}/assets/2023-update/family-trip2.jpg" width="250"></center>
-<center><img src="{{ site.url }}/assets/2023-update/family-trip1.jpg" width="700"></center>
+<center><img src="{{ site.url }}/assets/2023-update/family-trip1.jpg" width="400"></center>
 <br>
 
 ## Nuôi mèo và sống ở Seattle
@@ -46,8 +46,8 @@ Tui nhớ lại lần nhà tui đi 1 vòng Đài Loan lúc tui tốt nghiệp đ
 Nhà tui có thêm 2 con giặc mèo, em gái Juno (Ms. Juno Junejune Mojito) và anh giai Pullo (Mr. Pullo Myboy Tito). 
 Xin đừng hỏi tui tại sao chúng nó lại có tên quý tộc như vậy. 
 
-<center><img src="{{ site.url }}/assets/2023-update/june-and-pullo2.jpg" width="400"></center>
-<center><img src="{{ site.url }}/assets/2023-update/june-and-pullo3.jpg" width="400"></center>
+<center><img src="{{ site.url }}/assets/2023-update/june-and-pullo2.jpg" width="300"></center>
+<center><img src="{{ site.url }}/assets/2023-update/june-and-pullo3.jpg" width="300"></center>
 <br>
 
 Ở chỗ mới tui cũng may mắn dành riêng được một không gian siêu nhỏ để làm gốm tại gia. 
@@ -55,9 +55,9 @@ Không có việc và sống trong tình hình kinh tế âm u, tui chơi với 
 Tui cũng tranh thủ publish được một Rust library lên crates.io. 
 Thời gian này có nhiều lúc lắng đọng, tui ngồi một chỗ và nhìn thời gian trôi.
 
-<center><img src="{{ site.url }}/assets/2023-update/my-ceramics.jpg" width="300"></center>
-<center><img src="{{ site.url }}/assets/2023-update/my-ceramics1.JPG" width="300"></center>
-<center><img src="{{ site.url }}/assets/2023-update/my-ceramics2.JPG" width="300"></center>
+<center><img src="{{ site.url }}/assets/2023-update/my-ceramics.jpg" width="200"></center>
+<center><img src="{{ site.url }}/assets/2023-update/my-creramics1.JPG" width="200"></center>
+<center><img src="{{ site.url }}/assets/2023-update/my-ceramics2.JPG" width="200"></center>
 <br>
 
 
@@ -66,7 +66,7 @@ Chuyện gì đến thì chắc bạn cũng đoán ra rồi đấy, tui được
 Tui đã đi làm được hơn 1 tháng, có những hôm ngẫm lại cả một con ride mà mình đã trải qua trong năm nay cũng có những nốt trầm, nhưng cũng có nhiều nốt thăng. 
 Lại chẳng mấy chốc mà tui chuẩn bị cán đích ba mưi. Chậc.
 
-<center><img src="{{ site.url }}/assets/2023-update/tui-2023.JPG"></center>
+<center><img src="{{ site.url }}/assets/2023-update/tui-2023.JPG" width="500"></center>
 <br>
 
 Tui mong sẽ viết thêm nhiều bài blog chia sẻ và học hành hơn. Nếu bạn có gợi ý, đừng ngại email tui hoặc để lại bình luận phía dưới. Thân chào và cảm ơn ;)
