@@ -1,0 +1,73 @@
+---
+layout: post
+title:  "Cập nhật đầu thu 2023"
+date:   2023-10-07 13:00:00 -0700
+categories: career-stories
+---
+
+Sáng nay tỉnh dậy tui bàng hoàng nhận ra năm 2023 có nhiều thay đổi lớn nên tui lại trồi lên cập nhật một tẹo.
+
+# Học Tiếng và Ăn Tết ở Mexico 
+
+Tui mê học tiếng Tây Ban Nha (TBN). Được sống ở một nước nói tiếng TBN và học tiếng cùng người bản địa là một việc tui muốn làm đã từ lâu. 
+Đầu năm nay tui nghĩ bụng tại sao mình không làm luôn nhể. 
+Thế là một hôm nọ, tui phát hiện mình tỉnh dậy ở Oaxaca, một thành phố nổi tiếng về văn hoá và ẩm thực ở phía nam Mexico. 
+
+Lúc này tui vừa kết thúc 2 kỳ thực tập, nên cũng tự cho mình giải lao một tí. 
+Trên trường chỉ còn 1 môn cuối, tui xin học online nên thời gian rảnh đi khám phá Mexico cũng nhiều. 
+1 tháng ở đây, tui đăng ký học tiếng TBN 1 thầy 1 trò mỗi ngày trong 3 tuần đầu - ban ngày đi học, ban tối đi quẩy. 
+1-2 tuần cuối, dù mới nói được bập bẹ nhưng tui cũng ráng làm liều bắt xe đò đi dọc Mexico lên khám phá thủ đô Mexico City, ghé cả Puebla. 
+
+<center><img src="{{ site.url }}/assets/2023-update/in-mexico2.jpg"></center>
+<center><img src="{{ site.url }}/assets/2023-update/in-mexico1.jpg" width="500"></center>
+<center><img src="{{ site.url }}/assets/2023-update/in-mexico3.jpg" width="500"></center>
+<br>
+
+Chuyến đi xa này tui gặp được rất nhiều người đến từ mọi nơi, kết được một số bạn tốt, ăn được kha khá các món mới lạ. 
+Ngày Tết ta, tui nấu *bún chả* và mời một nhóm bạn mới đến nhà thưởng thức (ở đây chỉ tìm được những nguyên liệu để làm ra một món tựa bún chả). 
+Những ngày cuối ở Mexico, tui nhận được tin tui được vào vòng cuối trong quá trình tuyển dụng làm chính thức ở Google.
+
+# Tốt nghiệp và đi du lịch cùng bố mẹ
+
+Tui về lại Mỹ, chưa kịp ăn mừng thì Google thông báo đóng hồ sơ của tui và ngừng tuyển dụng. 
+Lúc mùa kinh tế ảm đạm tràn đến cũng là lúc tui tốt nghiệp. 
+Đã có nhiều lần tui vẽ ra một viễn cảnh mình dẫn bố mẹ vi vu nước Mỹ, trên tay một tấm bằng thạc sỹ mới cứng, và một công việc ngon lành. 
+
+Vế cuối lúc ấy dù không thành hiện thực nhưng được đi du lịch cùng bố mẹ là một trong những thành tựu lớn nhất và hạnh phúc nhất mà tui từng làm được. 
+Tui nhớ lại lần nhà tui đi 1 vòng Đài Loan lúc tui tốt nghiệp đại học, lần tui đi Hongkong với mẹ khi tui có một công việc ổn định, còn bao nhiêu những lần như vậy nữa.
+
+<center><img src="{{ site.url }}/assets/2023-update/family-trip2.jpg" width="250"></center>
+<center><img src="{{ site.url }}/assets/2023-update/family-trip1.jpg" width="700"></center>
+<br>
+
+## Nuôi mèo và sống ở Seattle
+
+2023 cũng là một năm cột mốc khi tui đổi tình trạng độc thân, bọn tui dọn đến ở một chỗ rộng hơn. 
+Nhà tui có thêm 2 con giặc mèo, em gái Juno (Ms. Juno Junejune Mojito) và anh giai Pullo (Mr. Pullo Myboy Tito). 
+Xin đừng hỏi tui tại sao chúng nó lại có tên quý tộc như vậy. 
+
+<center><img src="{{ site.url }}/assets/2023-update/june-and-pullo2.jpg" width="400"></center>
+<center><img src="{{ site.url }}/assets/2023-update/june-and-pullo3.jpg" width="400"></center>
+<br>
+
+Ở chỗ mới tui cũng may mắn dành riêng được một không gian siêu nhỏ để làm gốm tại gia. 
+Không có việc và sống trong tình hình kinh tế âm u, tui chơi với mèo, làm gốm, làm rất nhiều gốm. 
+Tui cũng tranh thủ publish được một Rust library lên crates.io. 
+Thời gian này có nhiều lúc lắng đọng, tui ngồi một chỗ và nhìn thời gian trôi.
+
+<center><img src="{{ site.url }}/assets/2023-update/my-ceramics.jpg" width="300"></center>
+<center><img src="{{ site.url }}/assets/2023-update/my-ceramics1.JPG" width="300"></center>
+<center><img src="{{ site.url }}/assets/2023-update/my-ceramics2.JPG" width="300"></center>
+<br>
+
+
+Rồi một ngày cuối hè nọ, Google lại tòi lên. 
+Chuyện gì đến thì chắc bạn cũng đoán ra rồi đấy, tui được hẹn phỏng vấn với một số team tại Google và được chọn vào một team ở downtown Seattle. 
+Tui đã đi làm được hơn 1 tháng, có những hôm ngẫm lại cả một con ride mà mình đã trải qua trong năm nay cũng có những nốt trầm, nhưng cũng có nhiều nốt thăng. 
+Lại chẳng mấy chốc mà tui chuẩn bị cán đích ba mưi. Chậc.
+
+<center><img src="{{ site.url }}/assets/2023-update/tui-2023.JPG"></center>
+<br>
+
+Tui mong sẽ viết thêm nhiều bài blog chia sẻ và học hành hơn. Nếu bạn có gợi ý, đừng ngại email tui hoặc để lại bình luận phía dưới. Thân chào và cảm ơn ;)
+
